@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "normal": {"model" : "me:combustion_generator"},
+      "facing=north": {"model" : "me:combustion_generator"},
+      "facing=south": {"model" : "me:combustion_generator", "y" : 180},
+      "facing=west": {"model" : "me:combustion_generator", "y" : 270},
+      "facing=east": {"model" : "me:combustion_generator", "y" : 90}
+  }
+}

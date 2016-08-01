@@ -1,0 +1,65 @@
+[23:55:44] [Client thread/INFO]: Setting user: Player375
+[23:55:49] [Client thread/INFO]: LWJGL Version: 2.9.4
+[23:55:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mechanical Expansion, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Waila
+[23:55:59] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:55:59] [Thread-9/INFO]: Initializing LWJGL OpenAL
+[23:55:59] [Thread-9/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:55:59] [Thread-9/INFO]: OpenAL initialized.
+[23:55:59] [Sound Library Loader/INFO]: Sound engine started
+[23:56:05] [Client thread/INFO]: Created: 16x16 textures-atlas
+[23:56:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mechanical Expansion, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO, FMLFileResourcePack:Waila
+[23:56:09] [Client thread/INFO]: SoundSystem shutting down...
+[23:56:09] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[23:56:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[23:56:10] [Thread-13/INFO]: Initializing LWJGL OpenAL
+[23:56:10] [Thread-13/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:56:10] [Thread-13/INFO]: OpenAL initialized.
+[23:56:10] [Sound Library Loader/INFO]: Sound engine started
+[23:56:15] [Client thread/WARN]: Texture me:textures/item/lead_ingot.png with size 150x150 limits mip level from 4 to 1
+[23:56:15] [Client thread/WARN]: textures: dropping miplevel from 4 to 1, because of minimum power of two: 2
+[23:56:16] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[23:56:19] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:56:22] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:56:22] [Server thread/INFO]: Starting integrated minecraft server version 1.8.9
+[23:56:22] [Server thread/INFO]: Generating keypair
+[23:56:23] [Server thread/INFO]: Preparing start region for level 0
+[23:56:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:56:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:56:25] [Server thread/INFO]: Player375[local:E:12421c17] logged in with entity id 15 at (-911.8215066533041, 56.0, -223.59912870504343)
+[23:56:25] [Server thread/INFO]: Player375 joined the game
+[23:56:28] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@78db65e8[id=3bdd7bc1-57b3-3ed1-a14e-cc7341dec1b1,name=Player375,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:65) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:175) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:59) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:56) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3524) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2317) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2280) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2195) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3934) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3938) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:165) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.func_181037_M(Minecraft.java:2915) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:130) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [?:1.7.0_79]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [?:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [?:1.7.0_79]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [?:1.7.0_79]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_79]
+[23:56:42] [Server thread/INFO]: Saving and pausing game...
+[23:56:42] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[23:56:42] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[23:56:42] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[23:56:48] [Server thread/INFO]: Stopping server
+[23:56:48] [Server thread/INFO]: Saving players
+[23:56:48] [Server thread/INFO]: Saving worlds
+[23:56:48] [Server thread/INFO]: Saving chunks for level 'Test World'/Overworld
+[23:56:48] [Server thread/INFO]: Saving chunks for level 'Test World'/Nether
+[23:56:48] [Server thread/INFO]: Saving chunks for level 'Test World'/The End
+[23:56:49] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[23:56:49] [Client thread/INFO]: Stopping!
+[23:56:49] [Client thread/INFO]: SoundSystem shutting down...
+[23:56:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

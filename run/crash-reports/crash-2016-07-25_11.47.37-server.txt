@@ -1,0 +1,121 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  EnderCorePlugin (EnderCore-1.8.9-0.3.0.14-beta.jar)
+Contact their authors BEFORE contacting forge
+
+// Who set us up the TNT?
+
+Time: 7/25/16 11:47 AM
+Description: Ticking block entity
+
+java.lang.NullPointerException: Ticking block entity
+	at com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity.<init>(CombustionGeneratorTileEntity.java:31)
+	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.createNewTileEntity(CombustionGenerator.java:111)
+	at net.minecraft.block.Block.createTileEntity(Block.java:1565)
+	at net.minecraft.world.chunk.Chunk.createNewTileEntity(Chunk.java:890)
+	at net.minecraft.world.chunk.Chunk.getTileEntity(Chunk.java:907)
+	at net.minecraft.world.World.getTileEntity(World.java:2468)
+	at crazypants.enderio.conduit.power.PowerConduit.getExternalPowerReceptor(PowerConduit.java:444)
+	at crazypants.enderio.conduit.power.PowerConduitNetwork.addConduit(PowerConduitNetwork.java:59)
+	at crazypants.enderio.conduit.power.PowerConduitNetwork.addConduit(PowerConduitNetwork.java:20)
+	at crazypants.enderio.conduit.AbstractConduitNetwork.setNetwork(AbstractConduitNetwork.java:49)
+	at crazypants.enderio.conduit.AbstractConduitNetwork.init(AbstractConduitNetwork.java:36)
+	at crazypants.enderio.conduit.power.PowerConduitNetwork.init(PowerConduitNetwork.java:34)
+	at crazypants.enderio.conduit.ConduitUtil.ensureValidNetwork(ConduitUtil.java:54)
+	at crazypants.enderio.conduit.AbstractConduit.updateNetwork(AbstractConduit.java:454)
+	at crazypants.enderio.conduit.AbstractConduit.updateEntity(AbstractConduit.java:401)
+	at crazypants.enderio.conduit.TileConduitBundle.doUpdate(TileConduitBundle.java:227)
+	at com.enderio.core.common.TileEntityBase.update(TileEntityBase.java:33)
+	at net.minecraft.world.World.updateEntities(World.java:1858)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:559)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity.<init>(CombustionGeneratorTileEntity.java:31)
+	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.createNewTileEntity(CombustionGenerator.java:111)
+	at net.minecraft.block.Block.createTileEntity(Block.java:1565)
+	at net.minecraft.world.chunk.Chunk.createNewTileEntity(Chunk.java:890)
+	at net.minecraft.world.chunk.Chunk.getTileEntity(Chunk.java:907)
+	at net.minecraft.world.World.getTileEntity(World.java:2468)
+	at crazypants.enderio.conduit.power.PowerConduit.getExternalPowerReceptor(PowerConduit.java:444)
+	at crazypants.enderio.conduit.power.PowerConduitNetwork.addConduit(PowerConduitNetwork.java:59)
+	at crazypants.enderio.conduit.power.PowerConduitNetwork.addConduit(PowerConduitNetwork.java:20)
+	at crazypants.enderio.conduit.AbstractConduitNetwork.setNetwork(AbstractConduitNetwork.java:49)
+	at crazypants.enderio.conduit.AbstractConduitNetwork.init(AbstractConduitNetwork.java:36)
+	at crazypants.enderio.conduit.power.PowerConduitNetwork.init(PowerConduitNetwork.java:34)
+	at crazypants.enderio.conduit.ConduitUtil.ensureValidNetwork(ConduitUtil.java:54)
+	at crazypants.enderio.conduit.AbstractConduit.updateNetwork(AbstractConduit.java:454)
+	at crazypants.enderio.conduit.AbstractConduit.updateEntity(AbstractConduit.java:401)
+	at crazypants.enderio.conduit.TileConduitBundle.doUpdate(TileConduitBundle.java:227)
+	at com.enderio.core.common.TileEntityBase.update(TileEntityBase.java:33)
+
+-- Block entity being ticked --
+Details:
+	Name: blockConduitBundleTileEntity // crazypants.enderio.conduit.TileConduitBundle
+	Block type: ID #289 (tile.blockConduitBundle // crazypants.enderio.conduit.BlockConduitBundle)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-914,57,-228), Chunk: (at 14,3,12 in -58,-15; contains blocks -928,0,-240 to -913,255,-225), Region: (-2,-1; contains chunks -64,-32 to -33,-1, blocks -1024,0,-512 to -513,255,-1)
+	Actual block type: ID #289 (tile.blockConduitBundle // crazypants.enderio.conduit.BlockConduitBundle)
+	Actual block data value: 0 / 0x0 / 0b0000
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1858)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:559)
+
+-- Affected level --
+Details:
+	Level name: Test World
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 625 Drop: 0
+	Level seed: 6696521113613297874
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 3;minecraft:bedrock,3*minecraft:stone,52*minecraft:sandstone;2;
+	Level spawn location: -920.00,4.00,-212.00 - World: (-920,4,-212), Chunk: (at 8,0,12 in -58,-14; contains blocks -928,0,-224 to -913,255,-209), Region: (-2,-1; contains chunks -64,-32 to -33,-1, blocks -1024,0,-512 to -513,255,-1)
+	Level time: 1339996 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 42172 (now: false), thunder time: 146372 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 309120208 bytes (294 MB) / 857210880 bytes (817 MB) up to 1882718208 bytes (1795 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 7 mods loaded, 7 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.1722.jar) 
+	UCHIJAAAA	Forge{11.15.1.1722} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.1722.jar) 
+	UCHIJAAAA	me{1.0} [Mechanical Expansion] (me-1.0.jar) 
+	UCHIJAAAA	endercore{1.8.9-0.3.0.14-beta} [EnderCore] (EnderCore-1.8.9-0.3.0.14-beta.jar) 
+	UCHIJAAAA	Waila{1.6.0} [Waila] (Waila-1.6.0-B3_1.8.8.jar) 
+	UCHIJAAAA	EnderIO{1.8.9-3.0.0.26_alpha} [Ender IO] (EnderIO-1.8.9-3.0.0.26_alpha.jar) 
+	Loaded coremods (and transformers): 
+EnderCorePlugin (EnderCore-1.8.9-0.3.0.14-beta.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	EnderIO: No known problems detected.
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

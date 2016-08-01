@@ -1,0 +1,106 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  EnderCorePlugin (EnderCore-1.8.9-0.3.0.14-beta.jar)
+Contact their authors BEFORE contacting forge
+
+// Why did you do that?
+
+Time: 7/26/16 1:35 AM
+Description: Ticking entity
+
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTileEntity.getStackInSlot(ElectricFurnaceTileEntity.java:51)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:81)
+	at net.minecraft.inventory.Container.detectAndSendChanges(Container.java:84)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:263)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2009)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:724)
+	at net.minecraft.world.World.updateEntity(World.java:1974)
+	at net.minecraft.world.World.updateEntities(World.java:1803)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:559)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTileEntity.getStackInSlot(ElectricFurnaceTileEntity.java:51)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:81)
+	at net.minecraft.inventory.Container.detectAndSendChanges(Container.java:84)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:263)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2009)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:724)
+	at net.minecraft.world.World.updateEntity(World.java:1974)
+
+-- Entity being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 15
+	Entity Name: Player328
+	Entity's Exact location: -914.65, 56.00, -224.55
+	Entity's Block location: -915.00,56.00,-225.00 - World: (-915,56,-225), Chunk: (at 13,3,15 in -58,-15; contains blocks -928,0,-240 to -913,255,-225), Region: (-2,-1; contains chunks -64,-32 to -33,-1, blocks -1024,0,-512 to -513,255,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1803)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:559)
+
+-- Affected level --
+Details:
+	Level name: Test World
+	All players: 1 total; [EntityPlayerMP['Player328'/15, l='Test World', x=-914.65, y=56.00, z=-224.55]]
+	Chunk stats: ServerChunkCache: 650 Drop: 0
+	Level seed: 6696521113613297874
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 3;minecraft:bedrock,3*minecraft:stone,52*minecraft:sandstone;2;
+	Level spawn location: -920.00,4.00,-212.00 - World: (-920,4,-212), Chunk: (at 8,0,12 in -58,-14; contains blocks -928,0,-224 to -913,255,-209), Region: (-2,-1; contains chunks -64,-32 to -33,-1, blocks -1024,0,-512 to -513,255,-1)
+	Level time: 1978896 game time, 6000 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 9567 (now: false), thunder time: 46830 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:777)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:681)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:159)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_79, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 715827336 bytes (682 MB) / 999292928 bytes (953 MB) up to 1882718208 bytes (1795 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.1722 7 mods loaded, 7 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forgeSrc-1.8.9-11.15.1.1722.jar) 
+	UCHIJAAAA	Forge{11.15.1.1722} [Minecraft Forge] (forgeSrc-1.8.9-11.15.1.1722.jar) 
+	UCHIJAAAA	me{1.0} [Mechanical Expansion] (me-1.0.jar) 
+	UCHIJAAAA	endercore{1.8.9-0.3.0.14-beta} [EnderCore] (EnderCore-1.8.9-0.3.0.14-beta.jar) 
+	UCHIJAAAA	Waila{1.6.0} [Waila] (Waila-1.6.0-B3_1.8.8.jar) 
+	UCHIJAAAA	EnderIO{1.8.9-3.0.0.26_alpha} [Ender IO] (EnderIO-1.8.9-3.0.0.26_alpha.jar) 
+	Loaded coremods (and transformers): 
+EnderCorePlugin (EnderCore-1.8.9-0.3.0.14-beta.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	EnderIO: Found the following problem(s) with your installation (That does NOT mean that Ender IO caused the crash or was involved in it in any way. We add this information to help finding common problems, not as an invitation to post any crash you encounter to Ender IO's issue tracker.):
+                  * The RF API that is being used (1.7.10R1.0.2 from (guessing) jar:file:/C:/Programming/Minecraft/forge_1.8.9_intellij/build/libs/me-1.0.jar!/cofh/api/CoFHAPIProps.class) differes from that that is reported as being loaded (1.8.9R1.2.0B1 from EnderIO-1.8.9-3.0.0.26_alpha.jar).
+                    It is a supported version, but that difference may lead to problems.
+                 This may (look up the meaning of 'may' in the dictionary if you're not sure what it means) have caused the error. Try reproducing the crash WITHOUT this/these mod(s) before reporting it.
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player328'/15, l='Test World', x=-914.65, y=56.00, z=-224.55]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
