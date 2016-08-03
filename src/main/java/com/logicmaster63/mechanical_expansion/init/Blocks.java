@@ -22,9 +22,9 @@ public class Blocks {
     public static Block electric_furnace;
 
     public static void init() {
-        electric_furnace = new ElectricFurnace(Material.iron).setUnlocalizedName("electric_furnace").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
-        combustion_generator = new CombustionGenerator(Material.iron).setUnlocalizedName("combustion_generator").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
-        copper_ore = new CopperOre(Material.iron).setUnlocalizedName("copper_ore").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
+        electric_furnace = new ElectricFurnace(Material.iron).setUnlocalizedName("electric_furnace").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
+        combustion_generator = new CombustionGenerator(Material.iron).setUnlocalizedName("combustion_generator").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
+        copper_ore = new CopperOre(Material.iron).setUnlocalizedName("copper_ore").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
     }
 
     public static void register() {

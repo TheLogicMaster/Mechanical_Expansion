@@ -5,11 +5,11 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 
-public class MechanicalExpansionTab extends CreativeTabs{
+public class CreativeTab extends CreativeTabs{
 
-    public MechanicalExpansionTab(String label) {
+    public CreativeTab(String label) {
         super(label);
-        this.setBackgroundImageName("MechanicalExpansionTab.png");
+        this.setBackgroundImageName("CreativeTab.png");
     }
 
     @Override

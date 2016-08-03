@@ -10,7 +10,7 @@ Time: 7/26/16 1:35 PM
 Description: Unexpected error
 
 java.lang.ClassCastException: com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTileEntity cannot be cast to com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity
-	at com.logicmaster63.mechanical_expansion.MechanicalExpansionGUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:28)
+	at com.logicmaster63.mechanical_expansion.GUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:28)
 	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
 	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:102)
 	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2590)
@@ -40,7 +40,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 
 -- Head --
 Stacktrace:
-	at com.logicmaster63.mechanical_expansion.MechanicalExpansionGUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:28)
+	at com.logicmaster63.mechanical_expansion.GUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:28)
 	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
 	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:102)
 	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2590)

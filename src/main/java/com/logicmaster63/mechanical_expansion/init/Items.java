@@ -18,11 +18,11 @@ public class Items {
     public static Item wrench;
 
     public static void init() {
-        pulverized_coal = new PulverizedCoal().setUnlocalizedName("pulverized_coal").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
-        coal_coke = new CoalCoke().setUnlocalizedName("coal_coke").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
-        copper_ingot = new CopperIngot().setUnlocalizedName("copper_ingot").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
-        lead_ingot = new LeadIngot().setUnlocalizedName("lead_ingot").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
-        wrench = new Wrench().setUnlocalizedName("wrench").setCreativeTab(MechanicalExpansion.mechanicalExpansionTab);
+        pulverized_coal = new PulverizedCoal().setUnlocalizedName("pulverized_coal").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
+        coal_coke = new CoalCoke().setUnlocalizedName("coal_coke").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
+        copper_ingot = new CopperIngot().setUnlocalizedName("copper_ingot").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
+        lead_ingot = new LeadIngot().setUnlocalizedName("lead_ingot").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
+        wrench = new Wrench().setUnlocalizedName("wrench").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
     }
 
     public static void register() {

@@ -10,7 +10,7 @@ Time: 7/24/16 1:31 AM
 Description: Unexpected error
 
 java.lang.NoClassDefFoundError: com/logicmaster63/mechanical_expansion/guis/CombustionGeneratorGUI
-	at com.logicmaster63.mechanical_expansion.MechanicalExpansionGUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:25)
+	at com.logicmaster63.mechanical_expansion.GUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:25)
 	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
 	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:102)
 	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2590)
@@ -46,7 +46,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 
 -- Head --
 Stacktrace:
-	at com.logicmaster63.mechanical_expansion.MechanicalExpansionGUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:25)
+	at com.logicmaster63.mechanical_expansion.GUIHandler.getClientGuiElement(MechanicalExpansionGUIHandler.java:25)
 	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
 	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:102)
 	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2590)
