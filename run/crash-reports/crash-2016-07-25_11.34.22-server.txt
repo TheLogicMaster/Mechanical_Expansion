@@ -11,7 +11,7 @@ Description: Ticking block entity
 
 java.lang.NullPointerException: Ticking block entity
 	at com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity.<init>(CombustionGeneratorTileEntity.java:31)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.createNewTileEntity(CombustionGenerator.java:111)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.createNewTileEntity(CombustionGenerator.java:111)
 	at net.minecraft.block.Block.createTileEntity(Block.java:1565)
 	at net.minecraft.world.chunk.Chunk.createNewTileEntity(Chunk.java:890)
 	at net.minecraft.world.chunk.Chunk.getTileEntity(Chunk.java:907)
@@ -42,7 +42,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity.<init>(CombustionGeneratorTileEntity.java:31)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.createNewTileEntity(CombustionGenerator.java:111)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.createNewTileEntity(CombustionGenerator.java:111)
 	at net.minecraft.block.Block.createTileEntity(Block.java:1565)
 	at net.minecraft.world.chunk.Chunk.createNewTileEntity(Chunk.java:890)
 	at net.minecraft.world.chunk.Chunk.getTileEntity(Chunk.java:907)

@@ -1,7 +1,10 @@
 package com.logicmaster63.mechanical_expansion.items;
 
-import net.minecraft.item.Item;
+public class CoalCoke extends ItemBase {
 
-public class CoalCoke extends Item{
+    private static final String NAME = "CoalCoke";
 
+    public CoalCoke() {
+        super(NAME);
+    }
 }

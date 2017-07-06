@@ -1,6 +1,10 @@
 package com.logicmaster63.mechanical_expansion.items;
 
-import net.minecraft.item.Item;
+public class LeadIngot extends ItemBase {
 
-public class LeadIngot extends Item{
+    private static final String NAME = "LeadIngot";
+
+    public LeadIngot() {
+        super(NAME);
+    }
 }

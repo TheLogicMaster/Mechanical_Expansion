@@ -1,18 +1,22 @@
 package com.logicmaster63.mechanical_expansion.containers;
 
-import com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTileEntity;
+import com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTile;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
+import net.minecraft.inventory.IContainerListener;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntityFurnace;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ElectricFurnaceContainer extends Container {
 
-    private ElectricFurnaceTileEntity te;
+    private ElectricFurnaceTile te;
+    private int energy;
 
-    public ElectricFurnaceContainer(InventoryPlayer playerInv, ElectricFurnaceTileEntity te) {
+    public ElectricFurnaceContainer(InventoryPlayer playerInv, ElectricFurnaceTile te) {
         this.te = te;
 
         this.addSlotToContainer(new Slot(te, 0, 60, 50));
@@ -31,9 +35,30 @@ public class ElectricFurnaceContainer extends Container {
         }
     }
 
+    @SideOnly(Side.CLIENT)
+    public void updateProgressBar(int id, int data) {
+        te.setField(id, data);
+    }
+
+    public void addListener(IContainerListener listener) {
+        super.addListener(listener);
+        listener.sendAllWindowProperties(this, te);
+    }
+
+    @Override
+    public void detectAndSendChanges() {
+        super.detectAndSendChanges();
+        for (int i = 0; i < listeners.size(); i++) {
+            IContainerListener icontainerlistener = listeners.get(i);
+            if(te.getStorage().getEnergyStored() != energy)
+                icontainerlistener.sendProgressBarUpdate(this, 0, te.getStorage().getEnergyStored());
+        }
+        energy = te.getStorage().getEnergyStored();
+    }
+
     @Override
     public boolean canInteractWith(EntityPlayer playerIn) {
-        return this.te.isUseableByPlayer(playerIn);
+        return this.te.isUsableByPlayer(playerIn);
     }
 
     @Override

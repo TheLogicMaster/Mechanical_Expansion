@@ -14,7 +14,7 @@ public class CombustionGeneratorItem extends ItemBlock{
     }
 
     @Override
-    public void addInformation(ItemStack stack, EntityPlayer player, List list, boolean show) {
+    public void addInformation(ItemStack stack, EntityPlayer player, List<String> list, boolean show) {
         list.add("A block that burns solid");
         list.add("fuels to generate RF");
         list.add("");

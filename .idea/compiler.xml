@@ -19,9 +19,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="forge_1.8.9_intellij_api" target="1.6" />
-      <module name="forge_1.8.9_intellij_main" target="1.6" />
-      <module name="forge_1.8.9_intellij_test" target="1.6" />
+      <module name="Mechanical_Expansion_api" target="1.8" />
+      <module name="Mechanical_Expansion_main" target="1.8" />
+      <module name="Mechanical_Expansion_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

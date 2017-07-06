@@ -12,7 +12,7 @@ Description: Unexpected error
 java.lang.NullPointerException: Unexpected error
 	at net.minecraft.tileentity.TileEntity.readFromNBT(TileEntity.java:75)
 	at com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity.readFromNBT(CombustionGeneratorTileEntity.java:39)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockPlacedBy(CombustionGenerator.java:107)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockPlacedBy(CombustionGenerator.java:107)
 	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:193)
 	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:63)
 	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:149)
@@ -43,7 +43,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Stacktrace:
 	at net.minecraft.tileentity.TileEntity.readFromNBT(TileEntity.java:75)
 	at com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity.readFromNBT(CombustionGeneratorTileEntity.java:39)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockPlacedBy(CombustionGenerator.java:107)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockPlacedBy(CombustionGenerator.java:107)
 	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:193)
 	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:63)
 	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:149)

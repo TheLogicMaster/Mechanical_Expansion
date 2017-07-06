@@ -4,8 +4,6 @@ import com.logicmaster63.mechanical_expansion.init.Blocks;
 import com.logicmaster63.mechanical_expansion.init.Items;
 import com.logicmaster63.mechanical_expansion.init.TileEntities;
 import com.logicmaster63.mechanical_expansion.proxy.CommonProxy;
-import com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity;
-import com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTileEntity;
 import jline.internal.Log;
 import net.minecraftforge.fml.common.Loader;
 import net.minecraftforge.fml.common.Mod;
@@ -33,19 +31,14 @@ public class MechanicalExpansion {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         Blocks.init();
-        Blocks.register();
         Items.init();
-        Items.register();
         TileEntities.register();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        proxy.RegisterRenders();
         GameRegistry.registerFuelHandler(new FuelHandler());
         NetworkRegistry.INSTANCE.registerGuiHandler(this, new GUIHandler());
-        GameRegistry.registerTileEntity(ElectricFurnaceTileEntity.class, "ElectricFurnaceTileEntity");
-        GameRegistry.registerTileEntity(CombustionGeneratorTileEntity.class, "CombustionGeneratorTileEntity");
     }
 
     @Mod.EventHandler

@@ -8,7 +8,7 @@ java.lang.NullPointerException: Unexpected error
 	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
 	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:102)
 	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2590)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:39)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:39)
 	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:412)
 	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1569)
 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2123)
@@ -37,7 +37,7 @@ Stacktrace:
 	at net.minecraftforge.fml.common.network.NetworkRegistry.getLocalGuiContainer(NetworkRegistry.java:266)
 	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.openGui(FMLNetworkHandler.java:102)
 	at net.minecraft.entity.player.EntityPlayer.openGui(EntityPlayer.java:2590)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:39)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:39)
 	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:412)
 	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1569)
 

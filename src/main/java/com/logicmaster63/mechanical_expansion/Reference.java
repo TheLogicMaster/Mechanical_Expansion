@@ -1,12 +1,6 @@
 package com.logicmaster63.mechanical_expansion;
 
-import net.minecraftforge.fml.common.registry.GameRegistry;
-import scala.actors.threadpool.Arrays;
-import scala.math.Ordering;
-
 import java.util.ArrayList;
-import java.util.List;
-
 
 public class Reference {
 
@@ -18,5 +12,7 @@ public class Reference {
     public static final String CONFIG_DIRECTORY = "/assets/mechanicalexpansion/config/";
     public static final ArrayList<String> IMPLEMENTABLE_MODIDS = new ArrayList<String>() {{
         add("EnderIO");
+        add("ComputerCraft");
+        add("JEI");
     }};
 }

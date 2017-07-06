@@ -11,7 +11,7 @@ Description: Unexpected error
 
 java.lang.IllegalArgumentException: Cannot set property PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]} to up on block me:combustion_generator, it is not an allowed value
 	at net.minecraft.block.state.BlockState$StateImplementation.withProperty(BlockState.java:160)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:38)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:38)
 	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:412)
 	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1569)
 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2123)
@@ -38,7 +38,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at net.minecraft.block.state.BlockState$StateImplementation.withProperty(BlockState.java:160)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:38)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:38)
 	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:412)
 	at net.minecraft.client.Minecraft.rightClickMouse(Minecraft.java:1569)
 

@@ -1,7 +1,7 @@
 package com.logicmaster63.mechanical_expansion.guis;
 
 import com.logicmaster63.mechanical_expansion.containers.CombustionGeneratorContainer;
-import com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity;
+import com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTile;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -14,9 +14,9 @@ import java.util.*;
 public class CombustionGeneratorGUI extends GuiContainer {
 
     FontRenderer fontRenderer;
-    CombustionGeneratorTileEntity te;
+    CombustionGeneratorTile te;
 
-    public CombustionGeneratorGUI (InventoryPlayer inventoryPlayer, CombustionGeneratorTileEntity te) {
+    public CombustionGeneratorGUI (InventoryPlayer inventoryPlayer, CombustionGeneratorTile te) {
         super(new CombustionGeneratorContainer(inventoryPlayer, te));
         this.xSize = 176;
         this.ySize = 166;
@@ -35,6 +35,7 @@ public class CombustionGeneratorGUI extends GuiContainer {
 
     @Override
     protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
+        fontRendererObj.drawString(te.getName(), this.xSize / 2 - this.fontRendererObj.getStringWidth(te.getName()) / 2, 6, 4210752);
         fontRenderer.drawString(Integer.toString(te.getStorage().getEnergyStored()), 8, 6, 4210752);
         List<String> list = new ArrayList<String>();
         list.add("A block that used RF");

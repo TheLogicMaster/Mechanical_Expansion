@@ -1,9 +1,8 @@
 package com.logicmaster63.mechanical_expansion;
 
-public class RecipeHandler {
+import net.minecraft.item.crafting.CraftingManager;
 
-public static void registerRecipes() {
+public class RecipeHandler{
 
-}
 
 }

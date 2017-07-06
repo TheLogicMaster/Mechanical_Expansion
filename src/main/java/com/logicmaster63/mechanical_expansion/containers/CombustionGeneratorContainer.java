@@ -1,21 +1,18 @@
 package com.logicmaster63.mechanical_expansion.containers;
 
-import com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTileEntity;
+import com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTile;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.Slot;
-import net.minecraft.inventory.SlotFurnaceFuel;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntityFurnace;
-import net.minecraftforge.fml.common.IFuelHandler;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CombustionGeneratorContainer extends Container {
 
-    private CombustionGeneratorTileEntity te;
+    private CombustionGeneratorTile te;
 
-    public CombustionGeneratorContainer(InventoryPlayer playerInv, CombustionGeneratorTileEntity te) {
+    public CombustionGeneratorContainer(InventoryPlayer playerInv, CombustionGeneratorTile te) {
         this.te = te;
 
         this.addSlotToContainer(new Slot(te, 0, 88, 50));
@@ -35,7 +32,7 @@ public class CombustionGeneratorContainer extends Container {
 
     @Override
     public boolean canInteractWith(EntityPlayer playerIn) {
-        return this.te.isUseableByPlayer(playerIn);
+        return this.te.isUsableByPlayer(playerIn);
     }
 
     @Override

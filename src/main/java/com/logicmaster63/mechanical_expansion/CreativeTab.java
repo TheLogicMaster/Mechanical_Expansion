@@ -3,6 +3,7 @@ package com.logicmaster63.mechanical_expansion;
 import com.logicmaster63.mechanical_expansion.init.Blocks;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 
 
 public class CreativeTab extends CreativeTabs{
@@ -13,7 +14,7 @@ public class CreativeTab extends CreativeTabs{
     }
 
     @Override
-    public Item getTabIconItem() {
-        return Item.getItemFromBlock(Blocks.combustion_generator);
+    public ItemStack getTabIconItem() {
+        return new ItemStack(Item.getItemFromBlock(Blocks.combustion_generator));
     }
 }

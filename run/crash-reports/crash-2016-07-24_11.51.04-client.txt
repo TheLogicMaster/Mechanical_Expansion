@@ -10,7 +10,7 @@ Time: 7/24/16 11:51 AM
 Description: Unexpected error
 
 java.lang.NullPointerException: Unexpected error
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:67)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:67)
 	at com.logicmaster63.mechanical_expansion.items.Wrench.onItemUse(Wrench.java:17)
 	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:149)
 	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:438)
@@ -38,7 +38,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 
 -- Head --
 Stacktrace:
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:67)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.onBlockActivated(CombustionGenerator.java:67)
 	at com.logicmaster63.mechanical_expansion.items.Wrench.onItemUse(Wrench.java:17)
 	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:149)
 	at net.minecraft.client.multiplayer.PlayerControllerMP.onPlayerRightClick(PlayerControllerMP.java:438)

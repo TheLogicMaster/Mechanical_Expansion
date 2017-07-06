@@ -11,7 +11,7 @@ Description: Initializing game
 
 java.lang.IllegalArgumentException: Cannot set property PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]} as it does not exist in BlockState{block=null, properties=[]}
 	at net.minecraft.block.state.BlockState$StateImplementation.withProperty(BlockState.java:156)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.<init>(CombustionGenerator.java:35)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.<init>(CombustionGenerator.java:35)
 	at com.logicmaster63.mechanical_expansion.init.Blocks.init(Blocks.java:21)
 	at com.logicmaster63.mechanical_expansion.MechanicalExpansion.preInit(MechanicalExpansion.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -65,7 +65,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Stacktrace:
 	at net.minecraft.block.state.BlockState$StateImplementation.withProperty(BlockState.java:156)
-	at com.logicmaster63.mechanical_expansion.machines.CombustionGenerator.<init>(CombustionGenerator.java:35)
+	at com.logicmaster63.mechanical_expansion.blocks.machines.CombustionGenerator.<init>(CombustionGenerator.java:35)
 	at com.logicmaster63.mechanical_expansion.init.Blocks.init(Blocks.java:21)
 	at com.logicmaster63.mechanical_expansion.MechanicalExpansion.preInit(MechanicalExpansion.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
