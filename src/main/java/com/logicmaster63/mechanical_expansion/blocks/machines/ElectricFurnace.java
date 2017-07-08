@@ -21,7 +21,7 @@ import java.util.Arrays;
 
 public class ElectricFurnace extends MachineBase {
 
-    private static final String NAME = "ElectricFurnace";
+    private static final String NAME = "electric_furnace";
 
     public ElectricFurnace(Material material) {
         super(material, NAME, new ArrayList<>(Arrays.asList("Test2 fJBFSJNFfnjsenfjsknJNFJN")));

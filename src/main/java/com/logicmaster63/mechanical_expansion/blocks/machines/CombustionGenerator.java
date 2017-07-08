@@ -24,7 +24,7 @@ import java.util.Arrays;
 public class CombustionGenerator extends MachineBase {
 
     public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
-    private static final String NAME = "CombustionGenerator";
+    private static final String NAME = "combustion_generator";
 
     public CombustionGenerator(Material materialIn) {
         super(materialIn, NAME, new ArrayList<>(Arrays.asList("TEST: VGAVHKSBFHKSBFJKSBFKJSBFKJSB")));

@@ -22,7 +22,7 @@ public class Blocks {
     public static void init() {
         electric_furnace = register(new ElectricFurnace(Material.IRON));
         combustion_generator = register(new CombustionGenerator(Material.IRON));
-        copper_ore = register(new BlockOre(Material.IRON, "CopperOre"));
+        copper_ore = register(new BlockOre(Material.IRON, "copper_ore"));
         //storage_controller = register(new StorageController(Material.IRON).setUnlocalizedName("storage_controller").setCreativeTab(MechanicalExpansion.MECHANICAL_TAB));
     }
 

@@ -13,9 +13,4 @@ public class BlockOre extends BlockBase implements ItemModelProvider {
         this.setResistance(15.0f);
         this.setHarvestLevel("pickaxe", 2);
     }
-
-    @Override
-    public void registerItemModel(Item item) {
-        MechanicalExpansion.proxy.registerItemRenderer(item, 0, "copperore");
-    }
 }

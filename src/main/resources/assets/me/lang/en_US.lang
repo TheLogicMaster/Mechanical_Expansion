@@ -1,5 +1,8 @@
 itemGroup.mechanicalExpansionTab=Mechanical Expansion
 
 tile.combustion_generator.name=Combustion Generator
+tile.oreCopper.name=Copper ore
 
-item.pulverized_coal.name=Pulverized Coal
+item.ingotCopper.name=Copper Ingot
+item.corn.name=Corn
+item.seedCorn.name=Corn Seed

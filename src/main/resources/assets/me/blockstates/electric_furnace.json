@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "normal": {"model" : "me:electric_furnace"},
+    "facing=north": {"model" : "me:electric_furnace"},
+    "facing=south": {"model" : "me:electric_furnace", "y" : 180},
+    "facing=west": {"model" : "me:electric_furnace", "y" : 270},
+    "facing=east": {"model" : "me:electric_furnace", "y" : 90}
+  }
+}

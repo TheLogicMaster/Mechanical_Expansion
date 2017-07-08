@@ -17,8 +17,6 @@ import net.minecraft.world.World;
 
 public abstract class BlockBase extends Block implements ItemModelProvider {
 
-    public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
-    public int facing;
     private String name;
 
     public BlockBase(Material material, String name) {
@@ -30,35 +28,7 @@ public abstract class BlockBase extends Block implements ItemModelProvider {
     }
 
     @Override
-    public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack) {
-        super.onBlockPlacedBy(worldIn, pos, state, placer, stack);
-    }
-
-    @Override
     public void registerItemModel(Item item) {
         MechanicalExpansion.proxy.registerItemRenderer(item, 0, item.getUnlocalizedName().substring(4));
     }
-    //@Override
-    //public IBlockState onBlockPlaced(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer) {
-    //    this.facing = facing.getHorizontalIndex();
-    //    return this.getDefaultState().withProperty(FACING, placer.getHorizontalFacing().getOpposite());
-    //}
-
-    @Override
-    public void breakBlock(World world, BlockPos pos, IBlockState blockstate) {
-        MachineBaseTile te = (MachineBaseTile) world.getTileEntity(pos);
-        InventoryHelper.dropInventoryItems(world, pos, te);
-        super.breakBlock(world, pos, blockstate);
-    }
-
-    /*@Override
-    public IBlockState getStateFromMeta(int meta) {
-        EnumFacing facing = EnumFacing.getHorizontal(meta);
-        return this.getDefaultState().withProperty(FACING, facing);
-    }*/
-
-    /*@Override
-    public int getMetaFromState(IBlockState state) {
-        return state.getValue(FACING).getHorizontalIndex();
-    }*/
 }

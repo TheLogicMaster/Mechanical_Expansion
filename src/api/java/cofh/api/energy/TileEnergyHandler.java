@@ -22,10 +22,10 @@ public class TileEnergyHandler extends TileEntity implements IEnergyHandler {
 	}
 
 	@Override
-	public void writeToNBT(NBTTagCompound nbt) {
-
+	public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
 		super.writeToNBT(nbt);
 		storage.writeToNBT(nbt);
+		return super.writeToNBT(nbt);
 	}
 
 	/* IEnergyConnection */
