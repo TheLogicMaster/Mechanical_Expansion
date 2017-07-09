@@ -1,11 +1,8 @@
 package com.logicmaster63.mechanical_expansion.blocks;
 
-import com.logicmaster63.mechanical_expansion.ItemModelProvider;
-import com.logicmaster63.mechanical_expansion.MechanicalExpansion;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.Item;
 
-public class BlockOre extends BlockBase implements ItemModelProvider {
+public class BlockOre extends BlockBase {
 
     public BlockOre(Material materialIn, String name) {
         super(materialIn, name);

@@ -26,7 +26,7 @@ public class MechanicalExpansion {
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.CLIENT_SERVER_CLASS)
     public static CommonProxy proxy;
-    public static final CreativeTab MECHANICAL_TAB = new CreativeTab("MECHANICAL_TAB");
+    public static final CreativeTab MECHANICAL_TAB = new CreativeTab("mechanical_tab");
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

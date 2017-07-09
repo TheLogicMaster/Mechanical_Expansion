@@ -10,7 +10,7 @@ public class CreativeTab extends CreativeTabs{
 
     public CreativeTab(String label) {
         super(label);
-        this.setBackgroundImageName("CreativeTab.png");
+        this.setBackgroundImageName("mechanical_expansion_tab.png");
     }
 
     @Override

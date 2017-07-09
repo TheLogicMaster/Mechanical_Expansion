@@ -1,10 +1,9 @@
 package com.logicmaster63.mechanical_expansion.items;
 
-import com.logicmaster63.mechanical_expansion.ItemModelProvider;
 import com.logicmaster63.mechanical_expansion.MechanicalExpansion;
 import net.minecraft.item.Item;
 
-public class ItemBase extends Item  implements ItemModelProvider {
+public class ItemBase extends Item {
 
     protected String name;
 
@@ -13,9 +12,5 @@ public class ItemBase extends Item  implements ItemModelProvider {
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(MechanicalExpansion.MECHANICAL_TAB);
-    }
-
-    public void registerItemModel(Item item) {
-        MechanicalExpansion.proxy.registerItemRenderer(this, 0, name);
     }
 }
