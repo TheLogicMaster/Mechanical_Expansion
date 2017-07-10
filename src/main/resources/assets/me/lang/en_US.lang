@@ -5,12 +5,12 @@ tile.electric_furnace.name=Electric Furnace
 
 tile.copper_ore.name=Copper ore
 
-item.copper_ingot.name=Copper Ingot
-item.lead_ingot.name=Lead Ingot
+item.ingot_copper.name=Copper Ingot
+item.ingot_lead.name=Lead Ingot
 
 item.pulverized_coal.name=Pulverized Coal
 item.coal_coke.name=Coal Coke
 item.wrench.name=Wrench
 
 item.corn.name=Corn
-item.seedCorn.name=Corn Seed
+item.seed_corn.name=Corn Seed

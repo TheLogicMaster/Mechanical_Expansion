@@ -1,6 +1,7 @@
 package com.logicmaster63.mechanical_expansion;
 
 import com.logicmaster63.mechanical_expansion.init.Blocks;
+import com.logicmaster63.mechanical_expansion.init.Entities;
 import com.logicmaster63.mechanical_expansion.init.Items;
 import com.logicmaster63.mechanical_expansion.init.TileEntities;
 import com.logicmaster63.mechanical_expansion.proxy.CommonProxy;
@@ -33,6 +34,7 @@ public class MechanicalExpansion {
         Blocks.init();
         Items.init();
         TileEntities.register();
+        Entities.init();
     }
 
     @Mod.EventHandler

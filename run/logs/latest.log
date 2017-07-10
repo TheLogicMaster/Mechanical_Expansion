@@ -1,36 +1,847 @@
-[02:15:08] [Client thread/INFO]: Setting user: Player649
-[02:15:15] [Client thread/WARN]: Skipping bad option: lastServer:
-[02:15:15] [Client thread/INFO]: LWJGL Version: 2.9.4
-[02:15:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mechanical Expansion, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Transport, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ccl-entityhook, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:NuclearCraft, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[02:15:36] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[02:15:37] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[02:15:37] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[02:15:37] [Thread-8/INFO]: OpenAL initialized.
-[02:15:37] [Sound Library Loader/INFO]: Sound engine started
-[02:15:42] [Client thread/INFO]: Created: 16x16 textures-atlas
-[02:15:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mechanical Expansion, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Transport, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ccl-entityhook, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:NuclearCraft, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation
-[02:15:49] [Client thread/INFO]: SoundSystem shutting down...
-[02:15:49] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[02:15:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[02:15:49] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[02:15:49] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[02:15:49] [Thread-10/INFO]: OpenAL initialized.
-[02:15:49] [Sound Library Loader/INFO]: Sound engine started
-[02:15:55] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[02:16:00] [Client thread/WARN]: Skipping bad option: lastServer:
-[02:16:05] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[02:18:03] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
-[02:18:03] [Server thread/INFO]: Generating keypair
-[02:18:04] [Server thread/INFO]: Preparing start region for level 0
-[02:18:05] [Server thread/INFO]: Changing view distance to 12, from 10
-[02:18:07] [Server thread/INFO]: Player649[local:E:1b4a9c7c] logged in with entity id 5 at (178.40021740604962, 56.0, -1493.149931953644)
-[02:18:07] [Server thread/INFO]: Player649 joined the game
-[02:18:09] [Server thread/INFO]: Saving and pausing game...
-[02:18:09] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[02:18:09] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[02:18:09] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[02:18:09] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2019ms behind, skipping 40 tick(s)
-[02:18:10] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@31d8e70b[id=fc13d9f9-a806-3ae0-82c2-ce24ef162c15,name=Player649,properties={},legacy=false]
+[03:50:01] [main/INFO]: Extra: []
+[03:50:01] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/justi/.gradle/caches/minecraft/assets, --assetIndex, 1.11, --accessToken{REDACTED}, --version, 1.11.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[03:50:01] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[03:50:01] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[03:50:01] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[03:50:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[03:50:01] [main/INFO]: Forge Mod Loader version 13.20.1.2388 for Minecraft 1.11.2 loading
+[03:50:01] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_102, running on Windows 10:amd64:10.0, installed at S:\Program Files (x86)\Java\jdk1.8.0_102\jre
+[03:50:01] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[03:50:01] [main/WARN]: The coremod codechicken.lib.asm.CCLCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[03:50:01] [main/WARN]: The coremod cofh.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[03:50:01] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[03:50:01] [main/INFO]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[03:50:01] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[03:50:01] [main/INFO]: Injecting location in coremod codechicken.lib.asm.CCLCorePlugin
+[03:50:01] [main/INFO]: Injecting location in coremod cofh.asm.LoadingPlugin
+[03:50:01] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:50:01] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:50:01] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[03:50:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:50:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:50:01] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:50:01] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[03:50:02] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[03:50:02] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:50:02] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:50:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:50:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:50:03] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[03:50:03] [main/INFO]: Remapping AccessTransformer rules...
+[03:50:03] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:50:03] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:50:03] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[03:50:05] [Client thread/INFO]: Setting user: Player486
+[03:50:09] [Client thread/WARN]: Skipping bad option: lastServer:
+[03:50:09] [Client thread/INFO]: LWJGL Version: 2.9.4
+[03:50:10] [Client thread/INFO]: -- System Details --
+Details:
+	Minecraft Version: 1.11.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_102, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 94888400 bytes (90 MB) / 631242752 bytes (602 MB) up to 1884815360 bytes (1797 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+CCLCorePlugin (CodeChickenLib-1.11.2-3.0.0.274-universal.jar)
+  codechicken.lib.asm.ClassHierarchyManager
+  codechicken.lib.asm.CCL_ASMTransformer
+CoFH Loading Plugin (CoFHCore-1.11.2-4.2.5.11-universal.jar)
+  cofh.asm.CoFHClassTransformer
+  cofh.asm.repack.codechicken.lib.asm.ClassHierarchyManager
+	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 20.19.15.4531' Renderer: 'Intel(R) HD Graphics 4400'
+[03:50:11] [Client thread/INFO]: MinecraftForge v13.20.1.2388 Initialized
+[03:50:11] [Client thread/INFO]: Replaced 232 ore recipes
+[03:50:11] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
+[03:50:11] [Client thread/INFO]: Searching S:\Programming\Minecraft\Mechanical_Expansion\run\mods for mods
+[03:50:13] [Thread-6/INFO]: Using sync timing. 200 frames of Display.update took 156876732 nanos
+[03:50:14] [Client thread/WARN]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.0.0.274
+[03:50:14] [Client thread/INFO]: Mod ccl-entityhook is missing the required element 'name'. Substituting ccl-entityhook
+[03:50:14] [Client thread/WARN]: Mod ccl-entityhook is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[03:50:15] [Client thread/INFO]: Forge Mod Loader has identified 23 mods to load
+[03:50:15] [Client thread/WARN]: ****************************************
+[03:50:15] [Client thread/WARN]: * The API cofhapi from source S:\Programming\Minecraft\Mechanical_Expansion\run\mods\CoFHCore-1.11.2-4.2.5.11-universal.jar is loaded from an incompatible classloader. THIS WILL NOT WORK!
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.ModAPIManager$APIContainer.validate(ModAPIManager.java:113)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.ModAPIManager.registerDataTableAndParseAPI(ModAPIManager.java:173)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.ModAPIManager.manageAPI(ModAPIManager.java:231)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:555)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:233)
+[03:50:15] [Client thread/WARN]: *  at net.minecraft.client.Minecraft.init(Minecraft.java:440)...
+[03:50:15] [Client thread/WARN]: ****************************************
+[03:50:15] [Client thread/WARN]: ****************************************
+[03:50:15] [Client thread/WARN]: * The API cofhapi|energy from source S:\Programming\Minecraft\Mechanical_Expansion\run\mods\CoFHCore-1.11.2-4.2.5.11-universal.jar is loaded from an incompatible classloader. THIS WILL NOT WORK!
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.ModAPIManager$APIContainer.validate(ModAPIManager.java:113)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.ModAPIManager.registerDataTableAndParseAPI(ModAPIManager.java:173)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.ModAPIManager.manageAPI(ModAPIManager.java:231)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:555)
+[03:50:15] [Client thread/WARN]: *  at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:233)
+[03:50:15] [Client thread/WARN]: *  at net.minecraft.client.Minecraft.init(Minecraft.java:440)...
+[03:50:15] [Client thread/WARN]: ****************************************
+[03:50:15] [Client thread/INFO]: Found mod(s) [cofhcore] containing declared API package cofh.api.energy (owned by CoFHAPI) without associated API reference
+[03:50:15] [Client thread/INFO]: Found mod(s) [nuclearcraft] containing declared API package cofh.api.energy (owned by CoFHAPI) without associated API reference
+[03:50:15] [Client thread/INFO]: Found mod(s) [cofhcore] containing declared API package cofh.api (owned by CoFHLib) without associated API reference
+[03:50:15] [Client thread/INFO]: Found mod(s) [nuclearcraft] containing declared API package cofh.api (owned by CoFHLib) without associated API reference
+[03:50:15] [Client thread/INFO]: Found mod(s) [me] containing declared API package cofh.api.energy (owned by cofhapi) without associated API reference
+[03:50:15] [Client thread/INFO]: Found mod(s) [me] containing declared API package cofh.api (owned by cofhlib) without associated API reference
+[03:50:16] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, <CoFH ASM>, me, buildcraftfactory, buildcrafttransport, buildcraftlib, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftrobotics, buildcraftsilicon, codechickenlib, ccl-entityhook, cofhcore, jei, nuclearcraft, thermaldynamics, thermalexpansion, thermalfoundation, waila] at CLIENT
+[03:50:16] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, <CoFH ASM>, me, buildcraftfactory, buildcrafttransport, buildcraftlib, buildcraftbuilders, buildcraftcore, buildcraftenergy, buildcraftrobotics, buildcraftsilicon, codechickenlib, ccl-entityhook, cofhcore, jei, nuclearcraft, thermaldynamics, thermalexpansion, thermalfoundation, waila] at SERVER
+[03:50:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mechanical Expansion, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Transport, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ccl-entityhook, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:NuclearCraft, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:waila
+[03:50:19] [Client thread/INFO]: Processing ObjectHolder annotations
+[03:50:19] [Client thread/INFO]: Found 1093 ObjectHolder annotations
+[03:50:19] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[03:50:19] [Client thread/INFO]: Found 0 ItemStackHolder annotations
+[03:50:19] [Client thread/INFO]: Applying holder lookups
+[03:50:19] [Client thread/INFO]: Holder lookups applied
+[03:50:19] [Client thread/INFO]: Applying holder lookups
+[03:50:19] [Client thread/INFO]: Holder lookups applied
+[03:50:19] [Client thread/INFO]: Applying holder lookups
+[03:50:19] [Client thread/INFO]: Holder lookups applied
+[03:50:19] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[03:50:19] [Forge Version Check/INFO]: [cofhcore] Starting version check at https://raw.github.com/cofh/version/master/cofhcore_update.json
+[03:50:19] [Client thread/INFO]: Registering default Templates...
+[03:50:19] [Client thread/INFO]: Registering default generators...
+[03:50:20] [Client thread/INFO]: Verifying or creating base world generation directory...
+[03:50:20] [Client thread/INFO]: Complete.
+[03:50:20] [Client thread/INFO]: 
+[03:50:20] [Client thread/INFO]: Starting BuildCraft 7.99.4
+[03:50:20] [Client thread/INFO]: Copyright (c) the BuildCraft team, 2011-2017
+[03:50:20] [Client thread/INFO]: http://www.mod-buildcraft.com
+[03:50:20] [Client thread/INFO]: 
+[03:50:20] [Client thread/INFO]: [api.modules] Module lib is loaded!
+[03:50:20] [Client thread/INFO]: [api.modules] Module core is loaded!
+[03:50:20] [Client thread/INFO]: [api.modules] Module builders is loaded!
+[03:50:20] [Client thread/INFO]: [api.modules] Module energy is loaded!
+[03:50:20] [Client thread/INFO]: [api.modules] Module factory is loaded!
+[03:50:20] [Client thread/INFO]: [api.modules] Module robotics is loaded!
+[03:50:20] [Client thread/INFO]: [api.modules] Module silicon is loaded!
+[03:50:20] [Client thread/INFO]: [api.modules] Module transport is loaded!
+[03:50:20] [Client thread/WARN]: [api.modules] Module compat is NOT loaded!
+[03:50:20] [Client thread/INFO]: [debugger] Debugging not automatically enabled for all of buildcraft. Logging all possible debug options.
+[03:50:20] [Client thread/INFO]:               To enable it for only logging messages add "-Dbuildcraft.debug=log" to your launch VM arguments
+[03:50:20] [Client thread/INFO]:               To enable it for ALL debugging "-Dbuildcraft.debug=all" to your launch VM arguments
+[03:50:20] [Client thread/INFO]:               To remove this message and all future ones add "-Dbuildcraft.debug=disable" to your launch VM arguments
+[03:50:21] [Forge Version Check/INFO]: [cofhcore] Found status: OUTDATED Target: 4.2.6
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for lib.sprite.holder add the option "-Dbuildcraft.lib.sprite.holder.debug=true" to your launch config as a VM argument (LOG).
+[03:50:21] [Forge Version Check/INFO]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.11.2&file=CodeChickenLib
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for lib.item add the option "-Dbuildcraft.lib.item.debug=true" to your launch config as a VM argument (LOG).
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for lib.net.cache add the option "-Dbuildcraft.lib.net.cache.debug=true" to your launch config as a VM argument (LOG).
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for lib.net.cache add the option "-Dbuildcraft.lib.net.cache.debug=true" to your launch config as a VM argument (COMPLEX).
+[03:50:21] [Forge Version Check/INFO]: [codechickenlib] Found status: OUTDATED Target: 3.0.0.284
+[03:50:21] [Forge Version Check/INFO]: [thermalfoundation] Starting version check at https://raw.github.com/cofh/version/master/thermalfoundation_update.json
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for lib.messages add the option "-Dbuildcraft.lib.messages.debug=true" to your launch config as a VM argument (LOG).
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for lib.locale add the option "-Dbuildcraft.lib.locale.debug=true" to your launch config as a VM argument (LOG).
+[03:50:21] [Forge Version Check/INFO]: [thermalfoundation] Found status: OUTDATED Target: 2.2.4
+[03:50:21] [Forge Version Check/INFO]: [thermalexpansion] Starting version check at https://raw.github.com/cofh/version/master/thermalexpansion_update.json
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for tile.debug.particles add the option "-Dbuildcraft.tile.debug.particles.debug=true" to your launch config as a VM argument (LOG).
+[03:50:21] [Client thread/INFO]: [debugger] To enable debugging for lib.id_alloc add the option "-Dbuildcraft.lib.id_alloc.debug=true" to your launch config as a VM argument (LOG).
+[03:50:22] [Forge Version Check/INFO]: [thermalexpansion] Found status: UP_TO_DATE Target: null
+[03:50:22] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03:50:22] [Forge Version Check/INFO]: [forge] Found status: OUTDATED Target: 13.20.1.2393
+[03:50:22] [Forge Version Check/INFO]: [thermaldynamics] Starting version check at https://raw.github.com/cofh/version/master/thermaldynamics_update.json
+[03:50:22] [Client thread/INFO]: [debugger] To enable debugging for lib.model.holder add the option "-Dbuildcraft.lib.model.holder.debug=true" to your launch config as a VM argument (LOG).
+[03:50:22] [Forge Version Check/INFO]: [thermaldynamics] Found status: UP_TO_DATE Target: null
+[03:50:23] [Client thread/INFO]: Development environment detected, Suppressing Invalid fingerprints..
+[03:50:24] [Client thread/INFO]: Pre Initializing...
+[03:50:25] [Client thread/INFO]: Registered block ore
+[03:50:25] [Client thread/INFO]: Registered block ingot_block
+[03:50:25] [Client thread/INFO]: Registered block fission_block
+[03:50:25] [Client thread/INFO]: Registered block cell_block
+[03:50:25] [Client thread/INFO]: Registered block cooler
+[03:50:25] [Client thread/INFO]: Registered block block_depleted_thorium
+[03:50:25] [Client thread/INFO]: Registered block block_depleted_uranium
+[03:50:25] [Client thread/INFO]: Registered block block_ice
+[03:50:25] [Client thread/INFO]: Registered block nuclear_furnace_idle
+[03:50:25] [Client thread/INFO]: Registered block nuclear_furnace_active
+[03:50:25] [Client thread/INFO]: Registered block manufactory_idle
+[03:50:25] [Client thread/INFO]: Registered block manufactory_active
+[03:50:25] [Client thread/INFO]: Registered block isotope_separator_idle
+[03:50:25] [Client thread/INFO]: Registered block isotope_separator_active
+[03:50:25] [Client thread/INFO]: Registered block decay_hastener_idle
+[03:50:25] [Client thread/INFO]: Registered block decay_hastener_active
+[03:50:25] [Client thread/INFO]: Registered block fuel_reprocessor_idle
+[03:50:25] [Client thread/INFO]: Registered block fuel_reprocessor_active
+[03:50:25] [Client thread/INFO]: Registered block alloy_furnace_idle
+[03:50:25] [Client thread/INFO]: Registered block alloy_furnace_active
+[03:50:25] [Client thread/INFO]: Registered block infuser_idle
+[03:50:25] [Client thread/INFO]: Registered block infuser_active
+[03:50:25] [Client thread/INFO]: Registered block melter_idle
+[03:50:25] [Client thread/INFO]: Registered block melter_active
+[03:50:25] [Client thread/INFO]: Registered block supercooler_idle
+[03:50:25] [Client thread/INFO]: Registered block supercooler_active
+[03:50:25] [Client thread/INFO]: Registered block electrolyser_idle
+[03:50:25] [Client thread/INFO]: Registered block electrolyser_active
+[03:50:25] [Client thread/INFO]: Registered block irradiator_idle
+[03:50:25] [Client thread/INFO]: Registered block irradiator_active
+[03:50:25] [Client thread/INFO]: Registered block machine_interface
+[03:50:25] [Client thread/INFO]: Registered block fission_controller_idle
+[03:50:25] [Client thread/INFO]: Registered block fission_controller_active
+[03:50:25] [Client thread/INFO]: Registered block fission_port
+[03:50:25] [Client thread/INFO]: Registered block fusion_core
+[03:50:25] [Client thread/INFO]: Registered block fusion_dummy_side
+[03:50:25] [Client thread/INFO]: Registered block fusion_dummy_top
+[03:50:25] [Client thread/INFO]: Registered block fusion_connector
+[03:50:25] [Client thread/INFO]: Registered block rtg_uranium
+[03:50:25] [Client thread/INFO]: Registered block rtg_plutonium
+[03:50:25] [Client thread/INFO]: Registered block rtg_americium
+[03:50:25] [Client thread/INFO]: Registered block rtg_californium
+[03:50:25] [Client thread/INFO]: Registered block solar_panel_basic
+[03:50:25] [Client thread/INFO]: Registered block voltaic_pile_basic
+[03:50:25] [Client thread/INFO]: Registered block lithium_ion_battery_basic
+[03:50:25] [Client thread/INFO]: Registered block buffer
+[03:50:25] [Client thread/INFO]: Registered block fusion_electromagnet_idle
+[03:50:25] [Client thread/INFO]: Registered block fusion_electromagnet_active
+[03:50:25] [Client thread/INFO]: Registered block accelerator_electromagnet_idle
+[03:50:25] [Client thread/INFO]: Registered block accelerator_electromagnet_active
+[03:50:25] [Client thread/INFO]: Registered block electromagnet_supercooler_idle
+[03:50:25] [Client thread/INFO]: Registered block electromagnet_supercooler_active
+[03:50:25] [Client thread/INFO]: Registered block helium_collector
+[03:50:25] [Client thread/INFO]: Registered block cobblestone_generator
+[03:50:25] [Client thread/INFO]: Registered block water_source
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_oxygen
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_hydrogen
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_deuterium
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_tritium
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_helium3
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_helium
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_steam
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_liquidhelium
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_plasma
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_lithium6
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_lithium7
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_boron10
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_boron11
+[03:50:25] [Client thread/INFO]: Registered fluid fluid_neutron
+[03:50:25] [Client thread/INFO]: Registered item ingot
+[03:50:25] [Client thread/INFO]: Registered item ingot_oxide
+[03:50:25] [Client thread/INFO]: Registered item dust
+[03:50:25] [Client thread/INFO]: Registered item dust_oxide
+[03:50:25] [Client thread/INFO]: Registered item gem
+[03:50:25] [Client thread/INFO]: Registered item gem_dust
+[03:50:25] [Client thread/INFO]: Registered item alloy
+[03:50:25] [Client thread/INFO]: Registered item part
+[03:50:25] [Client thread/INFO]: Registered item upgrade
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_empty
+[03:50:25] [Client thread/INFO]: Registered item tiny_dust_lead
+[03:50:25] [Client thread/INFO]: Registered item thorium
+[03:50:25] [Client thread/INFO]: Registered item uranium
+[03:50:25] [Client thread/INFO]: Registered item neptunium
+[03:50:25] [Client thread/INFO]: Registered item plutonium
+[03:50:25] [Client thread/INFO]: Registered item americium
+[03:50:25] [Client thread/INFO]: Registered item curium
+[03:50:25] [Client thread/INFO]: Registered item berkelium
+[03:50:25] [Client thread/INFO]: Registered item californium
+[03:50:25] [Client thread/INFO]: Registered item fuel_thorium
+[03:50:25] [Client thread/INFO]: Registered item fuel_uranium
+[03:50:25] [Client thread/INFO]: Registered item fuel_neptunium
+[03:50:25] [Client thread/INFO]: Registered item fuel_plutonium
+[03:50:25] [Client thread/INFO]: Registered item fuel_mixed_oxide
+[03:50:25] [Client thread/INFO]: Registered item fuel_americium
+[03:50:25] [Client thread/INFO]: Registered item fuel_curium
+[03:50:25] [Client thread/INFO]: Registered item fuel_berkelium
+[03:50:25] [Client thread/INFO]: Registered item fuel_californium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_thorium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_uranium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_neptunium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_plutonium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_mixed_oxide
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_americium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_curium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_berkelium
+[03:50:25] [Client thread/INFO]: Registered item fuel_rod_californium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_thorium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_uranium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_neptunium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_plutonium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_mixed_oxide
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_americium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_curium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_berkelium
+[03:50:25] [Client thread/INFO]: Registered item depleted_fuel_rod_californium
+[03:50:25] [Client thread/INFO]: Registered item boron
+[03:50:25] [Client thread/INFO]: Registered item lithium
+[03:50:25] [Client thread/INFO]: Registered item portable_ender_chest
+[03:50:25] [Client thread/INFO]: Registered item dominos
+[03:50:25] [Client thread/INFO]: Registered tool sword_boron
+[03:50:25] [Client thread/INFO]: Registered tool pickaxe_boron
+[03:50:25] [Client thread/INFO]: Registered tool shovel_boron
+[03:50:25] [Client thread/INFO]: Registered tool axe_boron
+[03:50:25] [Client thread/INFO]: Registered tool hoe_boron
+[03:50:25] [Client thread/INFO]: Registered tool sword_tough
+[03:50:25] [Client thread/INFO]: Registered tool pickaxe_tough
+[03:50:25] [Client thread/INFO]: Registered tool shovel_tough
+[03:50:25] [Client thread/INFO]: Registered tool axe_tough
+[03:50:25] [Client thread/INFO]: Registered tool hoe_tough
+[03:50:25] [Client thread/INFO]: Registered tool spaxelhoe_tough
+[03:50:25] [Client thread/INFO]: Registered armor piece helm_boron
+[03:50:25] [Client thread/INFO]: Registered armor piece chest_boron
+[03:50:25] [Client thread/INFO]: Registered armor piece legs_boron
+[03:50:25] [Client thread/INFO]: Registered armor piece boots_boron
+[03:50:25] [Client thread/INFO]: Registered armor piece helm_tough
+[03:50:25] [Client thread/INFO]: Registered armor piece chest_tough
+[03:50:25] [Client thread/INFO]: Registered armor piece legs_tough
+[03:50:25] [Client thread/INFO]: Registered armor piece boots_tough
+[03:50:25] [Client thread/INFO]: Registered tile entities
+[03:50:25] [Client thread/INFO]: OBJLoader: Domain nuclearcraft has been added.
+[03:50:25] [Client thread/INFO]: Registered render for block ore_copper
+[03:50:25] [Client thread/INFO]: Registered render for block ore_tin
+[03:50:25] [Client thread/INFO]: Registered render for block ore_lead
+[03:50:25] [Client thread/INFO]: Registered render for block ore_thorium
+[03:50:25] [Client thread/INFO]: Registered render for block ore_uranium
+[03:50:25] [Client thread/INFO]: Registered render for block ore_boron
+[03:50:25] [Client thread/INFO]: Registered render for block ore_lithium
+[03:50:25] [Client thread/INFO]: Registered render for block ore_magnesium
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_copper
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_tin
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_lead
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_thorium
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_uranium
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_boron
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_lithium
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_magnesium
+[03:50:25] [Client thread/INFO]: Registered render for block ingot_block_graphite
+[03:50:25] [Client thread/INFO]: Registered render for block fission_block_casing
+[03:50:25] [Client thread/INFO]: Registered render for block fission_block_blast
+[03:50:25] [Client thread/INFO]: Registered render for block cell_block
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_empty
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_water
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_redstone
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_quartz
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_gold
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_glowstone
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_lapis
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_diamond
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_helium
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_enderium
+[03:50:25] [Client thread/INFO]: Registered render for block cooler_cryotheum
+[03:50:25] [Client thread/INFO]: Registered render for block block_depleted_thorium
+[03:50:25] [Client thread/INFO]: Registered render for block block_depleted_uranium
+[03:50:25] [Client thread/INFO]: Registered render for block block_ice
+[03:50:25] [Client thread/INFO]: Registered render for block nuclear_furnace_idle
+[03:50:25] [Client thread/INFO]: Registered render for block nuclear_furnace_active
+[03:50:25] [Client thread/INFO]: Registered render for block manufactory_idle
+[03:50:25] [Client thread/INFO]: Registered render for block manufactory_active
+[03:50:25] [Client thread/INFO]: Registered render for block isotope_separator_idle
+[03:50:25] [Client thread/INFO]: Registered render for block isotope_separator_active
+[03:50:25] [Client thread/INFO]: Registered render for block decay_hastener_idle
+[03:50:25] [Client thread/INFO]: Registered render for block decay_hastener_active
+[03:50:25] [Client thread/INFO]: Registered render for block fuel_reprocessor_idle
+[03:50:25] [Client thread/INFO]: Registered render for block fuel_reprocessor_active
+[03:50:25] [Client thread/INFO]: Registered render for block alloy_furnace_idle
+[03:50:25] [Client thread/INFO]: Registered render for block alloy_furnace_active
+[03:50:25] [Client thread/INFO]: Registered render for block infuser_idle
+[03:50:25] [Client thread/INFO]: Registered render for block infuser_active
+[03:50:25] [Client thread/INFO]: Registered render for block melter_idle
+[03:50:25] [Client thread/INFO]: Registered render for block melter_active
+[03:50:25] [Client thread/INFO]: Registered render for block supercooler_idle
+[03:50:25] [Client thread/INFO]: Registered render for block supercooler_active
+[03:50:25] [Client thread/INFO]: Registered render for block electrolyser_idle
+[03:50:25] [Client thread/INFO]: Registered render for block electrolyser_active
+[03:50:25] [Client thread/INFO]: Registered render for block irradiator_idle
+[03:50:25] [Client thread/INFO]: Registered render for block irradiator_active
+[03:50:25] [Client thread/INFO]: Registered render for block machine_interface
+[03:50:25] [Client thread/INFO]: Registered render for block fission_controller_idle
+[03:50:25] [Client thread/INFO]: Registered render for block fission_controller_active
+[03:50:25] [Client thread/INFO]: Registered render for block fission_port
+[03:50:25] [Client thread/INFO]: Registered render for block fusion_core
+[03:50:25] [Client thread/INFO]: Registered render for block fusion_dummy_side
+[03:50:25] [Client thread/INFO]: Registered render for block fusion_dummy_top
+[03:50:25] [Client thread/INFO]: Registered render for block fusion_connector
+[03:50:25] [Client thread/INFO]: Registered render for block rtg_uranium
+[03:50:25] [Client thread/INFO]: Registered render for block rtg_plutonium
+[03:50:25] [Client thread/INFO]: Registered render for block rtg_americium
+[03:50:25] [Client thread/INFO]: Registered render for block rtg_californium
+[03:50:25] [Client thread/INFO]: Registered render for block solar_panel_basic
+[03:50:25] [Client thread/INFO]: Registered render for block voltaic_pile_basic
+[03:50:25] [Client thread/INFO]: Registered render for block lithium_ion_battery_basic
+[03:50:25] [Client thread/INFO]: Registered render for block buffer
+[03:50:25] [Client thread/INFO]: Registered render for block fusion_electromagnet_idle
+[03:50:25] [Client thread/INFO]: Registered render for block fusion_electromagnet_active
+[03:50:25] [Client thread/INFO]: Registered render for block accelerator_electromagnet_idle
+[03:50:25] [Client thread/INFO]: Registered render for block accelerator_electromagnet_active
+[03:50:25] [Client thread/INFO]: Registered render for block electromagnet_supercooler_idle
+[03:50:25] [Client thread/INFO]: Registered render for block electromagnet_supercooler_active
+[03:50:25] [Client thread/INFO]: Registered render for block helium_collector
+[03:50:25] [Client thread/INFO]: Registered render for block cobblestone_generator
+[03:50:25] [Client thread/INFO]: Registered render for block water_source
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_copper
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_tin
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_lead
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_thorium
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_uranium
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_boron
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_lithium
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_magnesium
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_graphite
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_oxide_thorium
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_oxide_uranium
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_oxide_manganese
+[03:50:25] [Client thread/INFO]: Registered render for item ingot_oxide_manganese2
+[03:50:25] [Client thread/INFO]: Registered render for item dust_copper
+[03:50:25] [Client thread/INFO]: Registered render for item dust_tin
+[03:50:25] [Client thread/INFO]: Registered render for item dust_lead
+[03:50:25] [Client thread/INFO]: Registered render for item dust_thorium
+[03:50:25] [Client thread/INFO]: Registered render for item dust_uranium
+[03:50:25] [Client thread/INFO]: Registered render for item dust_boron
+[03:50:25] [Client thread/INFO]: Registered render for item dust_lithium
+[03:50:25] [Client thread/INFO]: Registered render for item dust_magnesium
+[03:50:25] [Client thread/INFO]: Registered render for item dust_graphite
+[03:50:25] [Client thread/INFO]: Registered render for item dust_oxide_thorium
+[03:50:25] [Client thread/INFO]: Registered render for item dust_oxide_uranium
+[03:50:25] [Client thread/INFO]: Registered render for item dust_oxide_manganese
+[03:50:25] [Client thread/INFO]: Registered render for item dust_oxide_manganese2
+[03:50:25] [Client thread/INFO]: Registered render for item gem_rhodochrosite
+[03:50:25] [Client thread/INFO]: Registered render for item gem_dust_diamond
+[03:50:25] [Client thread/INFO]: Registered render for item gem_dust_rhodochrosite
+[03:50:25] [Client thread/INFO]: Registered render for item gem_dust_quartz
+[03:50:25] [Client thread/INFO]: Registered render for item gem_dust_obsidian
+[03:50:25] [Client thread/INFO]: Registered render for item alloy_bronze
+[03:50:25] [Client thread/INFO]: Registered render for item alloy_tough
+[03:50:25] [Client thread/INFO]: Registered render for item alloy_hard_carbon
+[03:50:25] [Client thread/INFO]: Registered render for item alloy_magnesium_diboride
+[03:50:25] [Client thread/INFO]: Registered render for item alloy_lithium_manganese_dioxide
+[03:50:25] [Client thread/INFO]: Registered render for item alloy_steel
+[03:50:25] [Client thread/INFO]: Registered render for item alloy_ferroboron
+[03:50:25] [Client thread/INFO]: Registered render for item part_plate_basic
+[03:50:25] [Client thread/INFO]: Registered render for item part_plate_advanced
+[03:50:25] [Client thread/INFO]: Registered render for item part_plate_du
+[03:50:25] [Client thread/INFO]: Registered render for item part_plate_elite
+[03:50:25] [Client thread/INFO]: Registered render for item part_wire_copper
+[03:50:25] [Client thread/INFO]: Registered render for item part_wire_magnesium_diboride
+[03:50:25] [Client thread/INFO]: Registered render for item upgrade_speed
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_empty
+[03:50:25] [Client thread/INFO]: Registered render for item tiny_dust_lead
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_230
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_230_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_230_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_230_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_232
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_232_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_232_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item thorium_232_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_233
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_233_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_233_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_233_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_235
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_235_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_235_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_235_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_238
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_238_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_238_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item uranium_238_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_236
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_236_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_236_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_236_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_237
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_237_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_237_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item neptunium_237_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_238
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_238_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_238_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_238_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_239
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_239_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_239_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_239_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_241
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_241_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_241_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_242
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_242_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item plutonium_242_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item americium_241
+[03:50:25] [Client thread/INFO]: Registered render for item americium_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item americium_241_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item americium_241_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item americium_242
+[03:50:25] [Client thread/INFO]: Registered render for item americium_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item americium_242_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item americium_242_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item americium_243
+[03:50:25] [Client thread/INFO]: Registered render for item americium_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item americium_243_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item americium_243_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_243
+[03:50:25] [Client thread/INFO]: Registered render for item curium_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item curium_243_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_243_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_245
+[03:50:25] [Client thread/INFO]: Registered render for item curium_245_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item curium_245_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_245_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_246
+[03:50:25] [Client thread/INFO]: Registered render for item curium_246_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item curium_246_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_246_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_247
+[03:50:25] [Client thread/INFO]: Registered render for item curium_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item curium_247_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item curium_247_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_247
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_247_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_247_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_248
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_248_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_248_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item berkelium_248_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_249
+[03:50:25] [Client thread/INFO]: Registered render for item californium_249_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item californium_249_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_249_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_250
+[03:50:25] [Client thread/INFO]: Registered render for item californium_250_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item californium_250_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_250_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_251
+[03:50:25] [Client thread/INFO]: Registered render for item californium_251_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item californium_251_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_251_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_252
+[03:50:25] [Client thread/INFO]: Registered render for item californium_252_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item californium_252_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item californium_252_oxide_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_thorium_tbu
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_thorium_tbu_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_leu_233
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_leu_233_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_heu_233
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_heu_233_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_leu_235
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_leu_235_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_heu_235
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_uranium_heu_235_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_neptunium_len_236
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_neptunium_len_236_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_neptunium_hen_236
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_neptunium_hen_236_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_lep_239
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_lep_239_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_hep_239
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_hep_239_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_lep_241
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_lep_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_hep_241
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_plutonium_hep_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_mixed_oxide_mox_239
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_mixed_oxide_mox_241
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_americium_lea_242
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_americium_lea_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_americium_hea_242
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_americium_hea_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_lec_243
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_lec_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_hec_243
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_hec_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_lec_245
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_lec_245_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_hec_245
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_hec_245_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_lec_247
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_lec_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_hec_247
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_curium_hec_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_berkelium_leb_248
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_berkelium_leb_248_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_berkelium_heb_248
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_berkelium_heb_248_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_lec_249
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_lec_249_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_hec_249
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_hec_249_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_lec_251
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_lec_251_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_hec_251
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_californium_hec_251_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_thorium_tbu
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_thorium_tbu_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_leu_233
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_leu_233_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_heu_233
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_heu_233_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_leu_235
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_leu_235_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_heu_235
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_uranium_heu_235_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_neptunium_len_236
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_neptunium_len_236_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_neptunium_hen_236
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_neptunium_hen_236_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_lep_239
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_lep_239_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_hep_239
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_hep_239_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_lep_241
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_lep_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_hep_241
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_plutonium_hep_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_mixed_oxide_mox_239
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_mixed_oxide_mox_241
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_americium_lea_242
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_americium_lea_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_americium_hea_242
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_americium_hea_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_lec_243
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_lec_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_hec_243
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_hec_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_lec_245
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_lec_245_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_hec_245
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_hec_245_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_lec_247
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_lec_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_hec_247
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_curium_hec_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_berkelium_leb_248
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_berkelium_leb_248_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_berkelium_heb_248
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_berkelium_heb_248_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_lec_249
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_lec_249_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_hec_249
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_hec_249_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_lec_251
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_lec_251_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_hec_251
+[03:50:25] [Client thread/INFO]: Registered render for item fuel_rod_californium_hec_251_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_thorium_tbu
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_thorium_tbu_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_leu_233
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_leu_233_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_heu_233
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_heu_233_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_leu_235
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_leu_235_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_heu_235
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_uranium_heu_235_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_neptunium_len_236
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_neptunium_len_236_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_neptunium_hen_236
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_neptunium_hen_236_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_lep_239
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_lep_239_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_hep_239
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_hep_239_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_lep_241
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_lep_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_hep_241
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_plutonium_hep_241_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_mixed_oxide_mox_239
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_mixed_oxide_mox_241
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_americium_lea_242
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_americium_lea_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_americium_hea_242
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_americium_hea_242_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_lec_243
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_lec_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_hec_243
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_hec_243_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_lec_245
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_lec_245_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_hec_245
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_hec_245_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_lec_247
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_lec_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_hec_247
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_curium_hec_247_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_berkelium_leb_248
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_berkelium_leb_248_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_berkelium_heb_248
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_berkelium_heb_248_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_lec_249
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_lec_249_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_hec_249
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_hec_249_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_lec_251
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_lec_251_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_hec_251
+[03:50:25] [Client thread/INFO]: Registered render for item depleted_fuel_rod_californium_hec_251_oxide
+[03:50:25] [Client thread/INFO]: Registered render for item boron_10
+[03:50:25] [Client thread/INFO]: Registered render for item boron_10_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item boron_11
+[03:50:25] [Client thread/INFO]: Registered render for item boron_11_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item lithium_6
+[03:50:25] [Client thread/INFO]: Registered render for item lithium_6_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item lithium_7
+[03:50:25] [Client thread/INFO]: Registered render for item lithium_7_tiny
+[03:50:25] [Client thread/INFO]: Registered render for item portable_ender_chest
+[03:50:25] [Client thread/INFO]: Registered render for item dominos
+[03:50:25] [Client thread/INFO]: Registered render for tool sword_boron
+[03:50:25] [Client thread/INFO]: Registered render for tool pickaxe_boron
+[03:50:25] [Client thread/INFO]: Registered render for tool shovel_boron
+[03:50:25] [Client thread/INFO]: Registered render for tool axe_boron
+[03:50:25] [Client thread/INFO]: Registered render for tool hoe_boron
+[03:50:25] [Client thread/INFO]: Registered render for tool sword_tough
+[03:50:25] [Client thread/INFO]: Registered render for tool pickaxe_tough
+[03:50:25] [Client thread/INFO]: Registered render for tool shovel_tough
+[03:50:25] [Client thread/INFO]: Registered render for tool axe_tough
+[03:50:25] [Client thread/INFO]: Registered render for tool hoe_tough
+[03:50:25] [Client thread/INFO]: Registered render for tool spaxelhoe_tough
+[03:50:25] [Client thread/INFO]: Registered render for armor piece helm_boron
+[03:50:25] [Client thread/INFO]: Registered render for armor piece chest_boron
+[03:50:25] [Client thread/INFO]: Registered render for armor piece legs_boron
+[03:50:25] [Client thread/INFO]: Registered render for armor piece boots_boron
+[03:50:25] [Client thread/INFO]: Registered render for armor piece helm_tough
+[03:50:25] [Client thread/INFO]: Registered render for armor piece chest_tough
+[03:50:25] [Client thread/INFO]: Registered render for armor piece legs_tough
+[03:50:25] [Client thread/INFO]: Registered render for armor piece boots_tough
+[03:50:27] [Client thread/INFO]: Applying holder lookups
+[03:50:27] [Client thread/INFO]: Holder lookups applied
+[03:50:27] [Client thread/INFO]: Injecting itemstacks
+[03:50:27] [Client thread/INFO]: Itemstack injection complete
+[03:50:30] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:50:31] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[03:50:31] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:50:31] [Thread-8/INFO]: OpenAL initialized.
+[03:50:31] [Sound Library Loader/INFO]: Sound engine started
+[03:50:38] [Client thread/INFO]: Max texture size: 8192
+[03:50:38] [Client thread/INFO]: Created: 16x16 textures-atlas
+[03:50:39] [Client thread/INFO]: [debugger] To enable debugging for api.painting add the option "-Dbuildcraft.api.painting.debug=true" to your launch config as a VM argument (LOG).
+[03:50:39] [Client thread/INFO]: [debugger] To enable debugging for api.rotation add the option "-Dbuildcraft.api.rotation.debug=true" to your launch config as a VM argument (LOG).
+[03:50:39] [Client thread/INFO]: [debugger] To enable debugging for api.items add the option "-Dbuildcraft.api.items.debug=true" to your launch config as a VM argument (LOG).
+[03:50:39] [Client thread/INFO]: [debugger] To enable debugging for api.blocks add the option "-Dbuildcraft.api.blocks.debug=true" to your launch config as a VM argument (LOG).
+[03:50:39] [Client thread/INFO]: [debugger] To enable debugging for lib.markers add the option "-Dbuildcraft.lib.markers.debug=true" to your launch config as a VM argument (LOG).
+[03:50:40] [Client thread/INFO]: Initializing...
+[03:50:40] [Client thread/INFO]: Registered sound block.fusion_run
+[03:50:40] [Client thread/INFO]: Registered sound block.accelerator_run
+[03:50:40] [Client thread/INFO]: Injecting itemstacks
+[03:50:40] [Client thread/INFO]: Itemstack injection complete
+[03:50:40] [Client thread/INFO]: [debugger] To enable debugging for lib.markdown add the option "-Dbuildcraft.lib.markdown.debug=true" to your launch config as a VM argument (LOG).
+[03:50:41] [Client thread/INFO]: [debugger] To enable debugging for lib.guide.loader add the option "-Dbuildcraft.lib.guide.loader.debug=true" to your launch config as a VM argument (LOG).
+[03:50:41] [Client thread/WARN]: [lib.guide.loader] Failed to load data for Minecraft as it did not exist! (minecraft.jar)
+[03:50:41] [Client thread/WARN]: [lib.guide.loader] Failed to load data for Minecraft Coder Pack as it did not exist! (minecraft.jar)
+[03:50:41] [Client thread/WARN]: [lib.guide.loader] Failed to load data for CoFH ASM as it did not exist! (minecraft.jar)
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcrafttransport:plug_gate) to ["special.all_crafting", "(buildcrafttransport:plug_gate)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftcore:wrench) to ["special.all_crafting", "(buildcraftcore:wrench)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting]{buildcrafttransport:pipe_cobble_item,1,-1} to ["special.all_crafting", "{buildcrafttransport:pipe_cobble_item,1,-1}"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting]{buildcrafttransport:pipe_wood_item,1,-1} to ["special.all_crafting", "{buildcrafttransport:pipe_wood_item,1,-1}"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftfactory:distiller) to ["special.all_crafting", "(buildcraftfactory:distiller)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftcore:gear_wood) to ["special.all_crafting", "(buildcraftcore:gear_wood)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftcore:gear_stone) to ["special.all_crafting", "(buildcraftcore:gear_stone)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftcore:gear_diamond) to ["special.all_crafting", "(buildcraftcore:gear_diamond)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftcore:paintbrush) to ["special.all_crafting", "(buildcraftcore:paintbrush)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftcore:gear_gold) to ["special.all_crafting", "(buildcraftcore:gear_gold)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftlib:guide) to ["special.all_crafting", "(buildcraftlib:guide)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.new_page] to ["special.new_page", ""]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcraftcore:gear_iron) to ["special.all_crafting", "(buildcraftcore:gear_iron)"]
+[03:50:42] [Client thread/INFO]: Changed "$[special.all_crafting](buildcrafttransport:plug_blocker) to ["special.all_crafting", "(buildcrafttransport:plug_blocker)"]
+[03:50:42] [Client thread/INFO]: Post Initializing...
+[03:50:45] [Client thread/INFO]: [STDOUT]: TrueTypeFont loaded: java.awt.Font[family=Minecraftia,name=Minecraftia Regular,style=plain,size=14] - AntiAlias = true
+[03:50:45] [Client thread/INFO]: Found 4 World Generation files and 0 folders present in S:\Programming\Minecraft\Mechanical_Expansion\run\config\cofh\world.
+[03:50:45] [Client thread/INFO]: Reading world generation info from: cofh\world\thermalfoundation_clathrates.json:
+[03:50:45] [Client thread/INFO]: Finished reading cofh\world\thermalfoundation_clathrates.json
+[03:50:45] [Client thread/INFO]: Reading world generation info from: cofh\world\thermalfoundation_oil.json:
+[03:50:45] [Client thread/INFO]: Finished reading cofh\world\thermalfoundation_oil.json
+[03:50:45] [Client thread/INFO]: Reading world generation info from: cofh\world\thermalfoundation_ores.json:
+[03:50:45] [Client thread/INFO]: Finished reading cofh\world\thermalfoundation_ores.json
+[03:50:45] [Client thread/INFO]: CoFH Core: Load Complete.
+[03:50:45] [Client thread/INFO]: Starting JEI...
+[03:50:45] [Client thread/INFO]: Registering categories: mezz.jei.plugins.vanilla.VanillaPlugin ...
+[03:50:45] [Client thread/INFO]: Registered  categories: mezz.jei.plugins.vanilla.VanillaPlugin in 30 ms
+[03:50:45] [Client thread/INFO]: Registering categories: cofh.thermalexpansion.plugins.jei.JEIPluginTE ...
+[03:50:46] [Client thread/INFO]: Registered  categories: cofh.thermalexpansion.plugins.jei.JEIPluginTE in 284 ms
+[03:50:46] [Client thread/INFO]: Registering categories: cofh.core.plugins.jei.JEIPluginCore ...
+[03:50:46] [Client thread/INFO]: Registered  categories: cofh.core.plugins.jei.JEIPluginCore in 0 ms
+[03:50:46] [Client thread/INFO]: Registering categories: cofh.thermaldynamics.plugins.jei.JEIPluginTD ...
+[03:50:46] [Client thread/INFO]: Registered  categories: cofh.thermaldynamics.plugins.jei.JEIPluginTD in 4 ms
+[03:50:46] [Client thread/INFO]: Registering categories: mezz.jei.plugins.jei.JEIInternalPlugin ...
+[03:50:46] [Client thread/INFO]: Registered  categories: mezz.jei.plugins.jei.JEIInternalPlugin in 1 ms
+[03:50:46] [Client thread/INFO]: Registering plugin: mezz.jei.plugins.vanilla.VanillaPlugin ...
+[03:50:46] [Client thread/INFO]: Registered vanilla repair recipes in 4 ms
+[03:50:46] [Client thread/INFO]: Registered enchantment recipes in 54 ms
+[03:50:46] [Client thread/INFO]: Registered  plugin: mezz.jei.plugins.vanilla.VanillaPlugin in 298 ms
+[03:50:46] [Client thread/INFO]: Registering plugin: cofh.thermalexpansion.plugins.jei.JEIPluginTE ...
+[03:50:46] [Client thread/INFO]: Registered  plugin: cofh.thermalexpansion.plugins.jei.JEIPluginTE in 218 ms
+[03:50:46] [Client thread/INFO]: Registering plugin: cofh.core.plugins.jei.JEIPluginCore ...
+[03:50:46] [Client thread/INFO]: Registered  plugin: cofh.core.plugins.jei.JEIPluginCore in 10 ms
+[03:50:46] [Client thread/INFO]: Registering plugin: cofh.thermaldynamics.plugins.jei.JEIPluginTD ...
+[03:50:46] [Client thread/INFO]: Registered  plugin: cofh.thermaldynamics.plugins.jei.JEIPluginTD in 11 ms
+[03:50:46] [Client thread/INFO]: Registering plugin: mezz.jei.plugins.jei.JEIInternalPlugin ...
+[03:50:46] [Client thread/INFO]: Registered  plugin: mezz.jei.plugins.jei.JEIInternalPlugin in 1 ms
+[03:50:46] [Client thread/INFO]: Building recipe registry...
+[03:50:47] [Client thread/INFO]: Built    recipe registry in 500 ms
+[03:50:47] [Client thread/INFO]: Loading ingredient lookup history...
+[03:50:47] [Client thread/INFO]: Loaded  ingredient lookup history in 22 ms
+[03:50:47] [Client thread/INFO]: Building ingredient list...
+[03:50:47] [Client thread/INFO]: Built    ingredient list in 90 ms
+[03:50:47] [Client thread/INFO]: Building ingredient filter...
+[03:50:47] [Client thread/INFO]: Built    ingredient filter in 500 ms
+[03:50:47] [Client thread/INFO]: Building runtime...
+[03:50:48] [Client thread/INFO]: Built    runtime in 143 ms
+[03:50:48] [Client thread/INFO]: Sending runtime to plugin: mezz.jei.plugins.vanilla.VanillaPlugin ...
+[03:50:48] [Client thread/INFO]: Sending runtime to plugin: cofh.thermalexpansion.plugins.jei.JEIPluginTE ...
+[03:50:48] [Client thread/INFO]: Sending runtime to plugin: cofh.core.plugins.jei.JEIPluginCore ...
+[03:50:48] [Client thread/INFO]: Sending runtime to plugin: cofh.thermaldynamics.plugins.jei.JEIPluginTD ...
+[03:50:48] [Client thread/INFO]: Sending runtime to plugin: mezz.jei.plugins.jei.JEIInternalPlugin ...
+[03:50:48] [Client thread/INFO]: Finished Starting JEI in 2506 ms
+[03:50:48] [Client thread/INFO]: [Whitelist] Reading established Whitelist from file.
+[03:50:48] [Client thread/INFO]: Thermal Foundation: Load Complete.
+[03:50:48] [Client thread/INFO]: Thermal Dynamics: Load Complete.
+[03:50:48] [Client thread/INFO]: Thermal Expansion: Load Complete.
+[03:50:48] [Client thread/INFO]: [Agriculture] Agriculture mod not found.
+[03:50:48] [Client thread/INFO]: Forge Mod Loader has successfully loaded 23 mods
+[03:50:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mechanical Expansion, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Transport, FMLFileResourcePack:BuildCraft Lib, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Robotics, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:ccl-entityhook, FMLFileResourcePack:CoFH Core, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:NuclearCraft, FMLFileResourcePack:Thermal Dynamics, FMLFileResourcePack:Thermal Expansion, FMLFileResourcePack:Thermal Foundation, FMLFileResourcePack:waila
+[03:50:51] [Client thread/INFO]: SoundSystem shutting down...
+[03:50:51] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[03:50:51] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[03:50:51] [Thread-12/INFO]: Initializing LWJGL OpenAL
+[03:50:51] [Thread-12/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[03:50:52] [Thread-12/INFO]: OpenAL initialized.
+[03:50:52] [Sound Library Loader/INFO]: Sound engine started
+[03:50:57] [Client thread/INFO]: Max texture size: 8192
+[03:50:57] [Client thread/WARN]: Texture me:textures/item/ingot_copper.png with size 150x150 will have visual artifacts at mip level 4, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
+[03:50:57] [Client thread/WARN]: Texture me:textures/item/pulverized_coal.png with size 150x150 will have visual artifacts at mip level 4, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
+[03:50:58] [Client thread/WARN]: Texture me:textures/item/ingot_lead.png with size 150x150 will have visual artifacts at mip level 4, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
+[03:50:59] [Client thread/INFO]: Created: 2048x1024 textures-atlas
+[03:51:02] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[03:51:02] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[03:51:02] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[03:51:03] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[03:51:03] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[03:51:03] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[03:51:03] [Client thread/WARN]: Unable to resolve texture due to upward reference: #all in minecraft:models/block/cube_all
+[03:51:04] [Client thread/WARN]: Skipping bad option: lastServer:
+[03:51:05] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[03:51:12] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[03:51:12] [Server thread/INFO]: Generating keypair
+[03:51:12] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[03:51:12] [Server thread/INFO]: Found a missing id from the world me:copper_ore
+[03:51:12] [Server thread/INFO]: Found a missing id from the world me:copper_ore2
+[03:51:12] [Server thread/INFO]: Found a missing id from the world me:electricfurnace
+[03:51:12] [Server thread/INFO]: Found a missing id from the world me:combustiongenerator
+[03:51:12] [Server thread/INFO]: Found a missing id from the world me:orecopper
+[03:51:12] [Server thread/INFO]: Found a missing id from the world me:copperore
+[03:51:13] [Server thread/INFO]: Applying holder lookups
+[03:51:13] [Server thread/INFO]: Holder lookups applied
+[03:51:13] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@413c80b5)
+[03:51:13] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@413c80b5)
+[03:51:13] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@413c80b5)
+[03:51:13] [Server thread/INFO]: Preparing start region for level 0
+[03:51:16] [Server thread/INFO]: Changing view distance to 12, from 10
+[03:51:18] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[03:51:18] [Netty Server IO #1/INFO]: Client protocol version 2
+[03:51:18] [Netty Server IO #1/INFO]: Client attempting to join with 23 mods : minecraft@1.11.2,buildcraftlib@7.99.4,FML@8.0.99.99,thermalexpansion@5.2.5,thermaldynamics@2.2.5,buildcraftsilicon@7.99.4,<CoFH ASM>@000,buildcraftenergy@7.99.4,waila@1.7.1,jei@4.5.0.291,buildcrafttransport@7.99.4,cofhcore@4.2.5,forge@13.20.1.2388,thermalfoundation@2.2.3,me@1.0,codechickenlib@3.0.0.274,buildcraftbuilders@7.99.4,mcp@9.19,buildcraftcore@7.99.4,buildcraftrobotics@7.99.4,buildcraftfactory@7.99.4,ccl-entityhook@1.0,nuclearcraft@2.2d
+[03:51:18] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[03:51:18] [Server thread/INFO]: [Server thread] Server side modded connection established
+[03:51:18] [Server thread/INFO]: Player486[local:E:506ae4f7] logged in with entity id 15 at (173.50954965198216, 56.0, -1506.4171724403486)
+[03:51:18] [Server thread/INFO]: Player486 joined the game
+[03:51:18] [Server thread/INFO]: Player EntityPlayerMP['Player486'/15, l='Test', x=173.51, y=56.00, z=-1506.42] connected. Sending ping
+[03:51:18] [Netty Local Client IO #0/INFO]: Received server authentication msg. Remote sync will be activated
+[03:51:18] [Server thread/INFO]: [debugger] To enable debugging for lib.marker.full add the option "-Dbuildcraft.lib.marker.full.debug=true" to your launch config as a VM argument (COMPLEX).
+[03:51:21] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2328ms behind, skipping 46 tick(s)
+[03:51:21] [Server thread/INFO]: Saving and pausing game...
+[03:51:21] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[03:51:21] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[03:51:21] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[03:51:21] [pool-2-thread-1/WARN]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@90f8c77[id=c6ee12ed-7678-319d-87c9-a5de81832a4f,name=Player486,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -45,26 +856,33 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4821) [guava-17.0.jar:?]
 	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4827) [guava-17.0.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
-	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3056) [Minecraft.class:?]
-	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:2903) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SourceFile:110) [SkinManager$3.class:?]
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_102]
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_102]
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_102]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_102]
 	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_102]
-[02:18:11] [Thread-21/INFO]: [CHAT] WARNING: BuildCraft 7.99.4 is in ALPHA!
-[02:18:11] [Thread-21/INFO]: [CHAT]   Report bugs you find here
-[02:18:11] [Thread-21/INFO]: [CHAT]   and include the version 7.99.4 in the description
-[02:19:28] [Server thread/INFO]: Saving and pausing game...
-[02:19:28] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[02:19:28] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[02:19:29] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[02:19:30] [Client thread/INFO]: Stopping!
-[02:19:30] [Server thread/INFO]: Stopping server
-[02:19:30] [Server thread/INFO]: Saving players
-[02:19:30] [Server thread/INFO]: Saving worlds
-[02:19:30] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[02:19:30] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[02:19:30] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[02:19:30] [Client thread/INFO]: SoundSystem shutting down...
-[02:19:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[03:51:22] [Thread-23/INFO]: [CHAT] WARNING: BuildCraft 7.99.4 is in ALPHA!
+[03:51:22] [Thread-23/INFO]: [CHAT]   Report bugs you find here
+[03:51:22] [Thread-23/INFO]: [CHAT]   and include the version 7.99.4 in the description
+[03:51:39] [Server thread/INFO]: Player486 has just earned the achievement [Taking Inventory]
+[03:51:39] [Client thread/INFO]: [CHAT] Player486 has just earned the achievement [Taking Inventory]
+[03:52:01] [Server thread/INFO]: Saving and pausing game...
+[03:52:01] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[03:52:01] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[03:52:01] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[03:52:02] [Client thread/INFO]: Stopping!
+[03:52:02] [Server thread/INFO]: Stopping server
+[03:52:02] [Server thread/INFO]: Saving players
+[03:52:02] [Server thread/INFO]: Saving worlds
+[03:52:02] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[03:52:02] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[03:52:02] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[03:52:02] [Server thread/INFO]: Unloading dimension 0
+[03:52:02] [Server thread/INFO]: Unloading dimension -1
+[03:52:02] [Server thread/INFO]: Unloading dimension 1
+[03:52:02] [Client thread/INFO]: SoundSystem shutting down...
+[03:52:03] [Server thread/INFO]: Applying holder lookups
+[03:52:03] [Server thread/INFO]: Holder lookups applied
+[03:52:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

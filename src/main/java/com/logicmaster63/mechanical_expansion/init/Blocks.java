@@ -25,7 +25,7 @@ public class Blocks {
     public static void init() {
         electric_furnace = register(new ElectricFurnace(Material.IRON));
         combustion_generator = register(new CombustionGenerator(Material.IRON));
-        copper_ore = register(new BlockOre(Material.IRON, "copper_ore"));
+        copper_ore = register(new BlockOre(Material.IRON, "ore_copper"));
     }
 
     private static <T extends Block> T register(T block, ItemBlock itemBlock) {

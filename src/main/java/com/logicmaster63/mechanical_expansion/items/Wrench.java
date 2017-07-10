@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Wrench extends ItemBase {
-    private static final String NAME = "Wrench";
+    private static final String NAME = "wrench";
 
     public Wrench() {
         super(NAME);

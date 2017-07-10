@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mechanical_Expansion.iml" filepath="$PROJECT_DIR$/.idea/modules/Mechanical_Expansion.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mechanical_Expansion_api.iml" filepath="$PROJECT_DIR$/.idea/modules/Mechanical_Expansion_api.iml" group="Mechanical_Expansion" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mechanical_Expansion_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Mechanical_Expansion_main.iml" group="Mechanical_Expansion" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Mechanical_Expansion_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Mechanical_Expansion_test.iml" group="Mechanical_Expansion" />
     </modules>
