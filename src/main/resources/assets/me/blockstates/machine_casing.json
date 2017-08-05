@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "normal": {"model" : "me:machine_casing"},
+    "facing=north": {"model" : "me:machine_casing"},
+    "facing=south": {"model" : "me:machine_casing", "y" : 180},
+    "facing=west": {"model" : "me:machine_casing", "y" : 270},
+    "facing=east": {"model" : "me:machine_casing", "y" : 90}
+  }
+}

@@ -14,19 +14,34 @@ public class Items {
 
     public static Item pulverized_coal;
     public static Item coal_coke;
+
     public static Item ingot_copper;
     public static Item ingot_lead;
+
+    public static Item wire_copper;
+    public static Item sheet_copper;
+
     public static Item wrench;
+    public static Item wire_cutters;
 
     public static void init() {
+
         pulverized_coal = register(new PulverizedCoal());
-        OreDictionary.registerOre("dustCoal", pulverized_coal);
         coal_coke = register(new CoalCoke());
+
         ingot_copper = register(new CopperIngot());
-        OreDictionary.registerOre("ingotCopper", ingot_copper);
         ingot_lead = register(new LeadIngot());
-        OreDictionary.registerOre("ingotLead", ingot_lead);
+
+        wire_copper = register(new ItemBase("wire_copper"));
+        sheet_copper = register(new ItemBase("sheet_copper"));
+
         wrench = register(new Wrench());
+        wire_cutters = register(new WireCutters());
+
+        OreDictionary.registerOre("ingotCopper", ingot_copper);
+        OreDictionary.registerOre("ingotLead", ingot_lead);
+
+        OreDictionary.registerOre("dustCoal", pulverized_coal);
     }
 
     private static <T extends Item> T register(T item) {

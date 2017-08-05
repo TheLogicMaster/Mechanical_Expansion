@@ -2,6 +2,7 @@ package com.logicmaster63.mechanical_expansion.guis;
 
 import com.logicmaster63.mechanical_expansion.containers.CombustionGeneratorContainer;
 import com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTile;
+import com.logicmaster63.mechanical_expansion.tileEntity.MachineTile;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.inventory.GuiContainer;
@@ -14,9 +15,9 @@ import java.util.*;
 public class CombustionGeneratorGUI extends GuiContainer {
 
     FontRenderer fontRenderer;
-    CombustionGeneratorTile te;
+    MachineTile te;
 
-    public CombustionGeneratorGUI (InventoryPlayer inventoryPlayer, CombustionGeneratorTile te) {
+    public CombustionGeneratorGUI (InventoryPlayer inventoryPlayer, MachineTile te) {
         super(new CombustionGeneratorContainer(inventoryPlayer, te));
         this.xSize = 176;
         this.ySize = 166;

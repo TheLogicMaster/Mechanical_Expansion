@@ -2,6 +2,7 @@ package com.logicmaster63.mechanical_expansion.guis;
 
 import com.logicmaster63.mechanical_expansion.containers.ElectricFurnaceContainer;
 import com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTile;
+import com.logicmaster63.mechanical_expansion.tileEntity.MachineTile;
 import jline.internal.Log;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
@@ -17,10 +18,10 @@ import org.lwjgl.opengl.GL11;
 public class ElectricFurnaceGUI extends GuiContainer {
 
     FontRenderer fontRenderer;
-    ElectricFurnaceTile te;
+    MachineTile te;
     BlockPos pos;
 
-    public ElectricFurnaceGUI(InventoryPlayer inventoryPlayer, ElectricFurnaceTile te) {
+    public ElectricFurnaceGUI(InventoryPlayer inventoryPlayer, MachineTile te) {
         super(new ElectricFurnaceContainer(inventoryPlayer, te));
         this.xSize = 176;
         this.ySize = 166;
@@ -46,7 +47,7 @@ public class ElectricFurnaceGUI extends GuiContainer {
 
     @Override
     public void updateScreen() {
-        te = (ElectricFurnaceTile) Minecraft.getMinecraft().world.getTileEntity(pos);
+        te = (MachineTile) Minecraft.getMinecraft().world.getTileEntity(pos);
         super.updateScreen();
     }
 }

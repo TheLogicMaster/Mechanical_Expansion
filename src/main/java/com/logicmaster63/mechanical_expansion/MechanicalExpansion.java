@@ -1,9 +1,6 @@
 package com.logicmaster63.mechanical_expansion;
 
-import com.logicmaster63.mechanical_expansion.init.Blocks;
-import com.logicmaster63.mechanical_expansion.init.Entities;
-import com.logicmaster63.mechanical_expansion.init.Items;
-import com.logicmaster63.mechanical_expansion.init.TileEntities;
+import com.logicmaster63.mechanical_expansion.init.*;
 import com.logicmaster63.mechanical_expansion.proxy.CommonProxy;
 import jline.internal.Log;
 import net.minecraftforge.fml.common.Loader;
@@ -14,12 +11,13 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
-
-import java.util.logging.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Mod(modid = Reference.MODID, version = Reference.VERSION, name = Reference.MODNAME)
 public class MechanicalExpansion {
 
+    public static final Logger LOGGER = LogManager.getLogger(Reference.MODID);
     public final String[] MACHINE_LIST = new String[] {"combustion_generator" , "electric_furnace"};
 
     @Mod.Instance("me")
@@ -33,7 +31,8 @@ public class MechanicalExpansion {
     public void preInit(FMLPreInitializationEvent event) {
         Blocks.init();
         Items.init();
-        TileEntities.register();
+        Recipes.init();
+        TileEntities.init();
         Entities.init();
     }
 
@@ -47,7 +46,7 @@ public class MechanicalExpansion {
     public void postInit(FMLPostInitializationEvent event) {
         for (String modid : Reference.IMPLEMENTABLE_MODIDS) {
             if (Loader.isModLoaded(modid))
-                Log.info(Level.INFO, modid + " implementation in use");
+                Log.info(Log.Level.INFO, modid + " implementation in use");
         }
         //MinecraftServer.getServer().getConfigurationManager().sendChatMsg(new ChatComponentText("Sent to all players"));
     }

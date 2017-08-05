@@ -21,6 +21,8 @@ import net.minecraft.world.World;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static com.logicmaster63.mechanical_expansion.GUIHandler.GUI_COMBUSTION_GENERATOR;
+
 public class CombustionGenerator extends MachineBase {
 
     public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
@@ -40,7 +42,7 @@ public class CombustionGenerator extends MachineBase {
                 if (stack.getUnlocalizedName().substring(5).equals("wrench")) {
                     worldIn.setBlockState(pos, getDefaultState().withProperty(FACING, state.getValue(FACING).rotateAround(EnumFacing.Axis.Y)));
                 } else {
-                    playerIn.openGui(MechanicalExpansion.instance, 0, worldIn, pos.getX(), pos.getY(), pos.getZ());
+                    playerIn.openGui(MechanicalExpansion.instance, GUI_COMBUSTION_GENERATOR, worldIn, pos.getX(), pos.getY(), pos.getZ());
                 }
             } else {
                 NBTTagCompound nbt = new NBTTagCompound();

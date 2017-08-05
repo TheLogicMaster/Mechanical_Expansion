@@ -1,13 +1,10 @@
 package com.logicmaster63.mechanical_expansion.entity;
 
-import com.logicmaster63.mechanical_expansion.machines.MachineBase;
-import jline.internal.Log;
-import net.minecraft.entity.EntityCreature;
-import net.minecraft.entity.EntityLiving;
+import com.logicmaster63.mechanical_expansion.machines.Machine;
 import net.minecraft.entity.passive.EntityAmbientCreature;
 import net.minecraft.world.World;
 
-public class MachineEntity<T extends MachineBase> extends EntityCreature {
+public class MachineEntity<T extends Machine> extends EntityAmbientCreature {
 
     private T machine;
 

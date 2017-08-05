@@ -20,7 +20,7 @@ import net.minecraft.world.World;
 import java.util.List;
 import java.util.Random;
 
-public abstract class MachineBase extends BlockBase implements ITileEntityProvider{
+public abstract class MachineBase extends BlockBase implements ITileEntityProvider {
 
     public static final PropertyDirection FACING = PropertyDirection.create("facing", EnumFacing.Plane.HORIZONTAL);
 

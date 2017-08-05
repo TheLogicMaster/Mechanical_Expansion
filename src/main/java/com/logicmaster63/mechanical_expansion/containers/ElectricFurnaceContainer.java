@@ -1,6 +1,7 @@
 package com.logicmaster63.mechanical_expansion.containers;
 
 import com.logicmaster63.mechanical_expansion.tileEntity.ElectricFurnaceTile;
+import com.logicmaster63.mechanical_expansion.tileEntity.MachineTile;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
@@ -13,10 +14,10 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ElectricFurnaceContainer extends Container {
 
-    private ElectricFurnaceTile te;
+    private MachineTile te;
     private int energy;
 
-    public ElectricFurnaceContainer(InventoryPlayer playerInv, ElectricFurnaceTile te) {
+    public ElectricFurnaceContainer(InventoryPlayer playerInv, MachineTile te) {
         this.te = te;
 
         this.addSlotToContainer(new Slot(te, 0, 60, 50));

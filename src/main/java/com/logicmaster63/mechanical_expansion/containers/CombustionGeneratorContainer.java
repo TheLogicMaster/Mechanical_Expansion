@@ -1,19 +1,18 @@
 package com.logicmaster63.mechanical_expansion.containers;
 
-import com.logicmaster63.mechanical_expansion.tileEntity.CombustionGeneratorTile;
+import com.logicmaster63.mechanical_expansion.tileEntity.MachineTile;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
-import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntityFurnace;
 
 public class CombustionGeneratorContainer extends Container {
 
-    private CombustionGeneratorTile te;
+    private MachineTile te;
 
-    public CombustionGeneratorContainer(InventoryPlayer playerInv, CombustionGeneratorTile te) {
+    public CombustionGeneratorContainer(InventoryPlayer playerInv, MachineTile te) {
         this.te = te;
 
         this.addSlotToContainer(new Slot(te, 0, 88, 50));
